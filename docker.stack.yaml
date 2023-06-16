@@ -1,0 +1,56 @@
+#!/usr/bin/env -S docker stack deploy --with-registry-auth playground -c
+
+version: "3.9"
+
+# NOTE deploy
+# docker stack deploy --with-registry-auth -c docker-stack.yaml playground
+
+services:
+  playground:
+    image: ghcr.io/zdm/playground
+    init: true
+    stop_grace_period: 5m
+
+    deploy:
+      replicas: 1
+      placement:
+        max_replicas_per_node: 3
+      labels:
+        nginx.http.server-name:
+        nginx.http.client-max-body-size: 10m
+        nginx.http.cache.enabled: "true"
+        nginx.http.cache.max-size: 10g
+        nginx.http.cache.inactive: 1w
+
+    healthcheck:
+      test: curl -f http://127.0.0.1/api/check-health || exit 1
+      start_period: 60s
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+    environment:
+      NODE_ENV: production
+
+    command: ""
+
+    configs:
+      - { source: env.yaml, target: /var/local/package/env.yaml }
+
+    networks: [main]
+
+    volumes:
+      - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
+
+    build:
+      context: .
+
+configs:
+  env.yaml: { file: env.yaml }
+
+networks:
+  main: { external: true }
+
+x-build:
+  default_tag: latest
+  auto_tags: [main, latest, next]

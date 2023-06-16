@@ -1,0 +1,39 @@
+title: Telebot API
+emits: []
+
+methods:
+  bench:
+    title: Bench
+    maxParallelCallsPerClient: 100000
+
+  test:
+    title: Test
+    params:
+      - name: delay
+        schema:
+          type: ["null", "integer"]
+
+  upload:
+    title: Test upload
+    params:
+      - name: fields
+        required: true
+        schema:
+          type: object
+          properties:
+            params: { type: object }
+            file1: { file: { maxSize: 50_000_000 } }
+            file2: { file: { maxSize: 50_000_000, contentType: text/plain } }
+          additionalProperties: false
+          required: []
+
+  download:
+    title: Test download
+
+  send-notification:
+    title: Send test notification
+    permission: users
+
+  send-push-notification:
+    title: Send test push notification
+    permission: users

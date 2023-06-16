@@ -1,0 +1,43 @@
+dependencies:
+  - "@softvisio/core"
+
+services:
+  api:
+    locales: true
+    api: true
+    rpc: true
+    webpack: true
+    telegramNotificationsBot: true
+
+defaultService: api
+
+components:
+  locales:
+    locales: [en-GB, en-US, uk, ru]
+
+  api:
+    acl:
+      default:
+        administrator:
+          name: Administrator
+          description: Project administrator
+          permissions:
+            - acl:create
+            - acl:read
+            - acl:update
+            - acl:delete
+            - administration:create
+            - administration:read
+            - administration:update
+            - administration:delete
+
+        test:
+          name: Test
+          description: Test scope
+          permissions:
+            - acl:create
+            - acl:read
+            - acl:update
+            - acl:delete
+
+config: ~

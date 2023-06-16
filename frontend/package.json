@@ -1,0 +1,36 @@
+{
+    "name": "",
+    "version": "1.0.2",
+    "private": true,
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/zdm/playground",
+    "bugs": {
+        "url": "https://github.com/zdm/playground/issues",
+        "email": "zdm@softvisio.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zdm/playground.git"
+    },
+    "license": "ISC",
+    "author": "zdm <zdm@softvisio.net>",
+    "type": "module",
+    "imports": {
+        "#core/*": "@softvisio/core/*",
+        "#resources/*": "./resources/*",
+        "#src/*": [
+            "./src/*.vue",
+            "./src/*.js",
+            "./src/*.cjs"
+        ]
+    },
+    "scripts": {
+        "build": "softvisio-webpack build --mode=production",
+        "build-cordova": "softvisio-webpack build --mode=production --cordova",
+        "dev": "softvisio-webpack dev --mode=development"
+    },
+    "devDependencies": {
+        "@softvisio/vue-ext": "^8.0.0"
+    }
+}

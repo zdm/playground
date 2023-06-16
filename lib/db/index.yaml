@@ -1,0 +1,17 @@
+module: main
+type: pgsql
+patch: ~
+
+emits: ["main/test"]
+
+cron:
+  maintenance:
+    cron: "0 0 * * 0" # Sunday, 00:00
+    timezone: ~
+    query: VACUUM ANALYZE
+    runAsSuperuser: true
+
+  # test:
+  #   cron: "*/1 * * * * *" # 00:00 Sunday
+  #   timezone: ~
+  #   query: "DO $$ BEGIN PERFORM pg_sleep(5); PERFORM pg_notify( 'test', json_build_object( 'date', current_timestamp::text )::text ); END; $$;"

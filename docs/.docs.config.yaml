@@ -1,0 +1,14 @@
+logo: true
+
+aliases:
+  /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
+
+externalTypes:
+  - https://softvisio-node.github.io/core/
+  - https://softvisio-node.github.io/result/
+
+app:
+  api:
+    url: wss://localhost/api
+  rpc:
+    url: ws://localhost/api
