@@ -1,0 +1,27 @@
+release:
+  enabled: false
+
+subPackages:
+  - /frontend
+
+docker:
+  defaultTag: latest
+  autoTags: [main, latest, next]
+
+docs:
+  location: /docs
+
+  logo: true
+
+  aliases:
+    /api: https://raw.githubusercontent.com/c0rejs/core/main/docs/api.md
+
+  externalTypes:
+    - c0rejs/core
+    - c0rejs/result
+
+  app:
+    api:
+      url: wss://localhost/api
+    rpc:
+      url: ws://localhost/api

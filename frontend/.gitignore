@@ -1,0 +1,8 @@
+node_modules
+
+/data
+/wiki
+/env.local.yaml
+/env.*.local.yaml
+
+/www

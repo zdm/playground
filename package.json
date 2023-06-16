@@ -1,0 +1,30 @@
+{
+    "name": "@zdm/playground",
+    "version": "1.0.2",
+    "private": true,
+    "description": "JS application playground",
+    "homepage": "https://zdm.github.io/playground/",
+    "bugs": {
+        "url": "https://github.com/zdm/playground/issues",
+        "email": "root <root@softvisio.net>"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zdm/playground.git"
+    },
+    "license": "Proprietary Software",
+    "author": "root <root@softvisio.net>",
+    "type": "module",
+    "imports": {
+        "#core/*": "@c0rejs/core/*",
+        "#lib/*": "./lib/*.js",
+        "#resources/*": "./resources/*"
+    },
+    "scripts": {
+        "start": "node bin/main.js run --mode=development"
+    },
+    "dependencies": {
+        "@c0rejs/app-text-search": "^2.0.0",
+        "@c0rejs/core": "^7.101.6"
+    }
+}

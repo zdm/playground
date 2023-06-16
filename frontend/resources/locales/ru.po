@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-06-21 04:12+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Search-Path: /src/**\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: ../../src/private.vue:67:79
+msgid "API status"
+msgstr "Статус API"
+
+#: ../../src/private.vue:77:79
+msgid "ExtJS charts"
+msgstr "Диаграммы ExtJS"
+
+#: ../../src/private.vue:111:28
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../../src/private/amcharts.panel.vue:66:33
+msgid "Subscribed users"
+msgstr "Подписавшиеся пользователи"
+
+#: ../../src/private/amcharts.panel.vue:35:24
+#: ../../src/private/amcharts.panel.vue:60:24
+msgid "Total subscribed users"
+msgstr "Всего подписанных пользователей"
+
+#: ../../src/private.vue:62:79
+#, fuzzy
+#~ msgid "Amcharts"
+#~ msgstr "Амчартс"
+
+#: ../../src/telegram-xlroman-company-statement-bot/panel.vue:4:72
+#~ msgid "Bot info"
+#~ msgstr "Информация о боте"
+
+#: ../../src/telegram-xlroman-company-statement-bot/panel.vue:9:68
+#~ msgid "Bot users"
+#~ msgstr "Пользователи бота"
+
+#: ../../src/telegram-xlroman-company-statement-bot/component.js:11:15
+#~ msgid "Company statement bot"
+#~ msgstr "Бот выписки компании"
+
+#: ../../src/private.vue:77:79
+#, fuzzy
+#~ msgid "Ext charts"
+#~ msgstr "Дополнительные диаграммы"
+
+#: ../../src/private.vue:72:79
+#, fuzzy
+#~ msgid "Froala"
+#~ msgstr "Фроала"
+
+#: ../../src/telegram-test-bot/panel.vue:4:72
+#~ msgid "Info"
+#~ msgstr "Инфо"
+
+#: ../../src/private.vue:19:79
+#, fuzzy
+#~ msgid "Main"
+#~ msgstr "Основной"
+
+#: ../../src/private.vue:14:79
+#, fuzzy
+#~ msgid "Telegram"
+#~ msgstr "Телеграмма"
+
+#: ../../src/telegram-test-bot/component.js:11:15
+#~ msgid "Test bot"
+#~ msgstr "Тестовый бот"
+
+#: ../../src/telegram-test-bot/component.js:19:15
+#~ msgid "Test bot, for development."
+#~ msgstr "Тестовый бот, для разработки."
+
+#: ../../src/telegram-xlroman-company-statement-bot/component.js:19:15
+#~ msgid "This bot helps to retrieve company statement from https://egrul.nalog.ru/."
+#~ msgstr "Этот бот помогает получить выписку компании с https://egrul.nalog.ru/."
+
+#: ../../src/telegram-test-bot/panel.vue:9:68
+#~ msgid "Users"
+#~ msgstr "Пользователи"

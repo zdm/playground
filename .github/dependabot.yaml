@@ -1,0 +1,33 @@
+version: 2
+registries:
+  ghcr.io:
+    type: docker-registry
+    url: ghcr.io
+    username: ${{github.repository_owner}}
+    password: ${{secrets.DEPENDABOT_GITHUB_TOKEN}}
+  npm.pkg.github.com:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: ${{secrets.DEPENDABOT_GITHUB_TOKEN}}
+updates:
+  - package-ecosystem: docker
+    registries: "*"
+    directories:
+      - /
+    schedule:
+      interval: daily
+      day: monday
+      time: "00:00"
+      timezone: UTC
+    open-pull-requests-limit: 5
+  - package-ecosystem: npm
+    registries: "*"
+    directories:
+      - /
+      - /frontend
+    schedule:
+      interval: weekly
+      day: monday
+      time: "00:00"
+      timezone: UTC
+    open-pull-requests-limit: 5

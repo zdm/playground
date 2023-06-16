@@ -1,0 +1,32 @@
+services:
+  playground:
+    image: ghcr.io/zdm/playground
+    depends_on: [postgresql]
+    init: true
+    stop_grace_period: 5m
+
+    deploy:
+      replicas: 1
+      placement:
+        max_replicas_per_node: 3
+
+    command: run
+
+    secrets:
+      - { source: playground_env.yaml, target: /var/local/package/env.yaml }
+
+    networks: [network]
+
+    volumes:
+      - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
+
+    build:
+      context: .
+      secrets:
+        - id=GITHUB_TOKEN,env=GITHUB_TOKEN
+
+secrets:
+  playground_env.yaml: { file: env.yaml }
+
+networks:
+  network: ~

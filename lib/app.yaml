@@ -1,0 +1,54 @@
+dependencies:
+  - "@c0rejs/core"
+  - "@c0rejs/app-text-search"
+
+services:
+  api:
+    components:
+      acme: false
+      api: true
+      nginx: true
+      rpc: true
+      storage: true
+      telegramSupportBot: true
+      textSearch: true
+      threads: true
+      webpack: true
+
+defaultService: api
+
+components:
+  acl:
+    types:
+      main:
+        roles:
+          test:
+            name: !l10nt Test
+            description: !l10nt Test scope
+            permissions:
+              - acl:*
+
+        notifications:
+          test:
+            name: !l10nt ACL test
+            description: !l10nt Test notifications
+            roles: ~
+            channels:
+              telegram: { editable: false, subscribed: true }
+
+  env:
+    name: playground
+
+  locales:
+    locales: [en-GB, en-US, uk-UA, ru-RU]
+
+  notifications:
+    types:
+      test:
+        name: !l10nt Test
+        description: !l10nt Test notifications
+        channels:
+          internal: { editable: true }
+          push: { editable: true }
+
+config: ~
