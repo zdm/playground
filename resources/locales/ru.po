@@ -13,7 +13,7 @@ msgstr ""
 "X-Search-Path: ../../lib/**:!../../lib/components/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: lib/api/v1/test.js:64:16
+#: lib/api/v1/test.js:64:46
 msgid "Test"
 msgstr "Тест"
 
