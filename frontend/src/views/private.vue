@@ -35,7 +35,7 @@
             </ext-panel>
 
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="i18n(`API status`)">
-                <MonitoringPanel/>
+                <MethodsMonitoringPanel/>
             </ext-panel>
 
             <!-- froala -->
@@ -56,14 +56,14 @@ import AppTitle from "#vue/components/application/title";
 import UsersDialog from "#vue/components/administration/users/dialog";
 import AccountDialog from "./private/account/dialog";
 import AclDialog from "#vue/components/acl/dialog";
-import MonitoringPanel from "#vue/components/development/monitoring/panel";
+import MethodsMonitoringPanel from "#vue/components/development/monitoring/methods/panel";
 import FroalaPanel from "./private/froala.panel";
 import ExtChartsPanel from "./private/ext-charts.panel";
 
 // import constants from "@/constants";
 
 export default {
-    "components": { AppTitle, MonitoringPanel, FroalaPanel, ExtChartsPanel },
+    "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel },
 
     "methods": {
         _ready ( e ) {
