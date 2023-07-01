@@ -5,11 +5,7 @@ patch: ~
 emits: ["main/test"]
 
 cron:
-  maintenance:
-    cron: "0 0 * * 0" # Sunday, 00:00
-    timezone: ~
-    query: VACUUM ANALYZE
-    runAsSuperuser: true
+  ~
 
   # test:
   #   cron: "*/1 * * * * *" # 00:00 Sunday
