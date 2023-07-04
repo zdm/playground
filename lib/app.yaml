@@ -13,7 +13,7 @@ defaultService: api
 
 components:
   locales:
-    locales: [en-GB, en-US, uk, ru]
+    locales: [en-GB, en-US, uk-UA, ru-RU]
 
   api:
     acl:
