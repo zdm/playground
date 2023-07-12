@@ -4,6 +4,7 @@ dependencies:
 services:
   api:
     locales: true
+    threads: true
     api: true
     rpc: true
     webpack: true
