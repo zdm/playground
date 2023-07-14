@@ -16,8 +16,8 @@ components:
   locales:
     locales: [en-GB, en-US, uk-UA, ru-RU]
 
-  api:
-    acl:
+  acl:
+    types:
       default:
         administrator:
           name: Administrator
