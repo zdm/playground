@@ -19,26 +19,19 @@ components:
   acl:
     types:
       default:
-        administrator:
-          name: Administrator
-          description: Project administrator
-          permissions:
-            - acl:create
-            - acl:read
-            - acl:update
-            - acl:delete
-            - administration:create
-            - administration:read
-            - administration:update
-            - administration:delete
+        roles:
+          test:
+            name: Test
+            description: Test scope
+            permissions:
+              - acl:*
 
-        test:
-          name: Test
-          description: Test scope
-          permissions:
-            - acl:create
-            - acl:read
-            - acl:update
-            - acl:delete
+        notifications:
+          updates:
+            name: !i18n [Updates]
+            description: !i18n [Project updates]
+            default: true
+            editable: true
+            roles: ~
 
 config: ~
