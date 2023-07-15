@@ -30,8 +30,8 @@ components:
           updates:
             name: !i18n [Updates]
             description: !i18n [Project updates]
-            default: true
-            editable: true
             roles: ~
+            channels:
+              telegram: { default: true }
 
 config: ~
