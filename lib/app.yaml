@@ -30,6 +30,20 @@ components:
           updates:
             name: !i18n [Updates]
             description: !i18n [Project updates]
+            roles: [administrator, test]
+            channels:
+              telegram: { default: true }
+
+          updates1:
+            name: !i18n [Updates]
+            description: !i18n [Project updates]
+            roles: [test]
+            channels:
+              telegram: { default: true }
+
+          test:
+            name: !i18n [Updates]
+            description: !i18n [Project updates]
             roles: ~
             channels:
               telegram: { default: true }
