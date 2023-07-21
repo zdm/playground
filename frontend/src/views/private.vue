@@ -12,6 +12,7 @@
                 <ext-panel layout='{"align":"center","pack":"center","type":"vbox"}'>
                     <!-- notifications subscribe -->
                     <NotificatiosSubscribeButton aclId="" ui="action"/>
+                    <ext-container height="20"/>
 
                     <!-- users -->
                     <ext-button text="Show users" ui="action" @tap="showUsersDialog"/>
