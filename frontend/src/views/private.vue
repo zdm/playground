@@ -1,8 +1,11 @@
 <template>
     <ext-panel layout="fit" scrollable="true">
         <AppTitle ref="title" @showAccountDialog="showAccountDialog">
+            <template #title>
+                <NotificatiosSubscribeButton align="right" ui="action"/>
+            </template>
             <!-- <template #menuBottom> -->
-            <!--     <ext-button  iconCls="fas fa-users" text="Users" textAlign="left" @tap="showUsersDialog"/> -->
+            <!--     <ext-button iconCls="fas fa-users" text="Users" textAlign="left" @tap="showUsersDialog"/> -->
             <!-- </template> -->
         </AppTitle>
 
@@ -11,7 +14,7 @@
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="i18n(`Main`)">
                 <ext-panel layout='{"align":"center","pack":"center","type":"vbox"}'>
                     <!-- notifications subscribe -->
-                    <NotificatiosSubscribeButton aclId="" ui="action"/>
+                    <NotificatiosSubscribeButton aclId="-1" ui="action"/>
                     <ext-container height="20"/>
 
                     <!-- users -->
