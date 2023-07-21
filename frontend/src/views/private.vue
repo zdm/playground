@@ -10,6 +10,9 @@
             <!-- main panel -->
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="i18n(`Main`)">
                 <ext-panel layout='{"align":"center","pack":"center","type":"vbox"}'>
+                    <!-- notifications subscribe -->
+                    <NotificatiosSubscribeButton aclId="" ui="action"/>
+
                     <!-- users -->
                     <ext-button text="Show users" ui="action" @tap="showUsersDialog"/>
                     <ext-container height="20"/>
@@ -26,11 +29,13 @@
                     <ext-button text="Send push notification" ui="action" @tap="_sendPushNotification"/>
                     <ext-container height="20"/>
 
+                    <!-- upload                 -->
                     <ext-container layout="hbox">
                         <ext-filebutton text="Upload file" ui="action" @change="_uploadFile"/>
                         <ext-spacer width="20"/>
                         <ext-button text="Download file" ui="action" @tap="_downloadFile"/>
                     </ext-container>
+                    <ext-container height="20"/>
                 </ext-panel>
             </ext-panel>
 
@@ -59,11 +64,12 @@ import AclDialog from "#vue/components/acl/dialog";
 import MethodsMonitoringPanel from "#vue/components/development/monitoring/methods/panel";
 import FroalaPanel from "./private/froala.panel";
 import ExtChartsPanel from "./private/ext-charts.panel";
+import NotificatiosSubscribeButton from "#vue/components/notifications/subscribe.button";
 
 // import constants from "@/constants";
 
 export default {
-    "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel },
+    "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel, NotificatiosSubscribeButton },
 
     "methods": {
         _ready ( e ) {
