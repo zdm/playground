@@ -69,4 +69,13 @@ components:
             channels:
               telegram: { subscribed: true }
 
+  notifications:
+    types:
+      other:
+        name: !i18n [Other]
+        description: !i18n [Other unclassified notifications]
+        channels:
+          internal: { editable: true }
+          push: { editable: true }
+
 config: ~
