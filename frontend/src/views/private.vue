@@ -11,7 +11,7 @@
 
         <ext-tabpanel flex="1" layout='{"animation":{"direction":"vertical","type":"slide"}}' margin="1 0 0  0" tabBar='{"defaults":{"flex":null,"style":"font-size:.7em","textAlign":"center","width":120},"layout":{"align":"start","pack":"start","type":"vbox"}}' tabBarPosition="left" tabRotation="none" viewModel="true" @ready="_ready">
             <!-- main panel -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="i18n(`Main`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Main`)">
                 <ext-panel layout='{"align":"center","pack":"center","type":"vbox"}'>
                     <!-- notifications subscribe -->
                     <NotificatiosSubscribeButton aclId="-1" ui="action"/>
@@ -43,17 +43,17 @@
                 </ext-panel>
             </ext-panel>
 
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="i18n(`API status`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`API status`)">
                 <MethodsMonitoringPanel/>
             </ext-panel>
 
             <!-- froala -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="i18n(`Froala`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Froala`)">
                 <FroalaPanel/>
             </ext-panel>
 
             <!-- ext-charts -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="i18n(`Ext charts`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Ext charts`)">
                 <ExtChartsPanel/>
             </ext-panel>
         </ext-tabpanel>
@@ -87,7 +87,7 @@ export default {
                 {
                     "xtype": "button",
                     "iconCls": "fa-solid fa-cog",
-                    "text": this.i18n( `Settings` ),
+                    "text": this.l10n( `Settings` ),
                     "iconAlign": "top",
                     "ui": "action",
                     "padding": "0 0 0 0",

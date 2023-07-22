@@ -28,43 +28,43 @@ components:
 
         notifications:
           updates:
-            name: !i18n [Updates]
-            description: !i18n [Project updates]
+            name: !l10n [Updates]
+            description: !l10n [Project updates]
             roles: [administrator, test]
             channels:
               telegram: { subscribed: true }
 
           updates1:
-            name: !i18n [Updates 1]
-            description: !i18n [Project updates]
+            name: !l10n [Updates 1]
+            description: !l10n [Project updates]
             roles: [test]
             channels:
               telegram: { subscribed: true }
 
           test:
-            name: !i18n [Test]
-            description: !i18n [Project updates]
+            name: !l10n [Test]
+            description: !l10n [Project updates]
             roles: ~
             channels:
               telegram: { editable: false, subscribed: true }
 
           test1:
-            name: !i18n [Test]
-            description: !i18n [Project updates]
+            name: !l10n [Test]
+            description: !l10n [Project updates]
             roles: ~
             channels:
               telegram: { editable: false, subscribed: true }
 
           test2:
-            name: !i18n [Test]
-            description: !i18n [Project updates]
+            name: !l10n [Test]
+            description: !l10n [Project updates]
             roles: ~
             channels:
               telegram: { enabled: false, subscribed: true }
 
           test3:
-            name: !i18n [Test]
-            description: !i18n [Project updates]
+            name: !l10n [Test]
+            description: !l10n [Project updates]
             roles: ~
             channels:
               telegram: { subscribed: true }
@@ -72,8 +72,8 @@ components:
   notifications:
     types:
       other:
-        name: !i18n [Other]
-        description: !i18n [Other unclassified notifications]
+        name: !l10n [Other]
+        description: !l10n [Other unclassified notifications]
         channels:
           internal: { editable: true }
           push: { editable: true }
