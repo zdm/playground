@@ -3,12 +3,13 @@ dependencies:
 
 services:
   api:
-    locales: true
-    threads: true
-    api: true
-    rpc: true
-    webpack: true
-    telegramNotificationsBot: true
+    components:
+      locales: true
+      threads: true
+      api: true
+      rpc: true
+      webpack: true
+      telegramNotificationsBot: true
 
 defaultService: api
 
