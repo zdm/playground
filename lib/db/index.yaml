@@ -1,5 +1,5 @@
 module: main
-type: pgsql
+type: postgresql
 patch: ~
 
 emits: ["main/test"]
