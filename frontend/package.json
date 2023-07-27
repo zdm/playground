@@ -11,7 +11,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zdm/playground.git"
+        "url": "https://github.com/zdm/playground.git",
+        "directory": "frontend"
     },
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
