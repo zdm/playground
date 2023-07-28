@@ -22,13 +22,6 @@ services:
         nginx.http.cache.max-size: 10g
         nginx.http.cache.inactive: 1w
 
-    healthcheck:
-      test: curl -f http://127.0.0.1/api/check-health || exit 1
-      start_period: 60s
-      interval: 30s
-      timeout: 10s
-      retries: 3
-
     command: ""
 
     configs:
