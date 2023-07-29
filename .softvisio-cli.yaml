@@ -2,3 +2,8 @@ private: true
 
 subPackages:
   - frontend
+
+docker:
+  build:
+    defaultTag: latest
+    autoTags: [main, latest, next]
