@@ -1,11 +1,13 @@
-# git
-/.git*
+**
 
-# common
-/data
-/wiki
-/env.local.yaml
-/env.*.local.yaml
+!/bin
+!/lib
+!/resources
+!/src
+!/package.json
 
-# node
-node_modules
+!/frontend/bin
+!/frontend/lib
+!/frontend/resources
+!/frontend/src
+!/frontend/package.json
