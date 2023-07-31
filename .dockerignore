@@ -1,12 +1,12 @@
-/.git*
-/**/node_modules
+.git*
+**/node_modules
 
-/data
-/wiki
-/env.local.yaml
-/env.*.local.yaml
+data
+wiki
+env.local.yaml
+env.*.local.yaml
 
-/frontend/data
-/frontend/wiki
-/frontend/env.local.yaml
-/frontend/env.*.local.yaml
+frontend/data
+frontend/wiki
+frontend/env.local.yaml
+frontend/env.*.local.yaml
