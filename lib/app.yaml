@@ -10,7 +10,7 @@ services:
       rpc: true
       webpack: true
       telegramNotificationsBot: true
-      nginx: true
+      # nginx: true
 
 defaultService: api
 
