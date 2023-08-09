@@ -1,5 +1,5 @@
 <template>
-    <ext-panel layout="hbox" scrollable="true">
+    <ext-panel layout="fit" scrollable="true">
         <AppTitle ref="title" @showAccountDialog="showAccountDialog">
             <template #title>
                 <NotificatiosSubscribeButton align="right" ui="action"/>
@@ -9,17 +9,7 @@
             <!-- </template> -->
         </AppTitle>
 
-        <!-- XXX -->
-        <ext-panel flex="1" layout="fit">
-            <AmchartsPanel/>
-        </ext-panel>
-
         <ext-tabpanel flex="1" layout='{"animation":{"direction":"vertical","type":"slide"}}' margin="1 0 0  0" tabBar='{"defaults":{"flex":null,"style":"font-size:.7em","textAlign":"center","width":120},"layout":{"align":"start","pack":"start","type":"vbox"}}' tabBarPosition="left" tabRotation="none" viewModel="true" @ready="_ready">
-            <!-- amcharts -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Amcharts`)">
-                <AmchartsPanel/>
-            </ext-panel>
-
             <!-- main panel -->
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Main`)">
                 <ext-panel layout='{"align":"center","pack":"center","type":"vbox"}'>
@@ -53,6 +43,12 @@
                 </ext-panel>
             </ext-panel>
 
+            <!-- amcharts -->
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Amcharts`)">
+                <AmchartsPanel/>
+            </ext-panel>
+
+            <!-- monitoring -->
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`API status`)">
                 <MethodsMonitoringPanel/>
             </ext-panel>
