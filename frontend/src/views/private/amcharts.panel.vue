@@ -1,6 +1,11 @@
 <template>
-    <ext-panel/>
-    <Amcharts5 ref="callsChart" :createChart="_createChart" height="150" :updateChart="_updateChart" @refresh="_chartRefresh"/>>
+    <ext-panel layout="vbox">
+        <ext-panel flex="1" title="Test"/>
+
+        <Amcharts5 ref="callsChart" :createChart="_createChart" flex="1" :updateChart="_updateChart" @refresh="_chartRefresh"/>>
+
+        <ext-panel flex="1" title="Test"/>
+    </ext-panel>
 </template>
 
 <script>
