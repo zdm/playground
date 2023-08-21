@@ -12,7 +12,7 @@
         <ext-tabpanel flex="1" layout='{"animation":{"direction":"vertical","type":"slide"}}' margin="1 0 0  0" tabBar='{"defaults":{"flex":null,"style":"font-size:.7em","textAlign":"center","width":120},"layout":{"align":"start","pack":"start","type":"vbox"}}' tabBarPosition="left" tabRotation="none" viewModel="true" @ready="_ready">
             <!-- telegram -->
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Telegram`)">
-                <TelegramPanel telegramBotId="1"/>
+                <TelegramBotPanel telegramBotId="1"/>
             </ext-panel>
 
             <!-- main panel -->
@@ -81,12 +81,12 @@ import FroalaPanel from "./private/froala.panel";
 import ExtChartsPanel from "./private/ext-charts.panel";
 import NotificatiosSubscribeButton from "#vue/components/notifications/subscribe.button";
 import AmchartsPanel from "./private/amcharts.panel";
-import TelegramPanel from "#vue/components/telegram/panel";
+import TelegramBotPanel from "#vue/components/telegram/bot.panel";
 
 // import constants from "@/constants";
 
 export default {
-    "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel, NotificatiosSubscribeButton, AmchartsPanel, TelegramPanel },
+    "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel, NotificatiosSubscribeButton, AmchartsPanel, TelegramBotPanel },
 
     "methods": {
         _ready ( e ) {
