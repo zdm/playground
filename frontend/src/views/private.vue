@@ -12,7 +12,7 @@
         <ext-tabpanel flex="1" layout='{"animation":{"direction":"vertical","type":"slide"}}' margin="1 0 0  0" tabBar='{"defaults":{"flex":null,"style":"font-size:.7em","textAlign":"center","width":120},"layout":{"align":"start","pack":"start","type":"vbox"}}' tabBarPosition="left" tabRotation="none" viewModel="true" @ready="_ready">
             <!-- telegram -->
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Telegram`)">
-                <TelegramPanel/>
+                <TelegramPanel telegramBotId="1"/>
             </ext-panel>
 
             <!-- main panel -->
