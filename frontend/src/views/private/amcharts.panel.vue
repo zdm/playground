@@ -1,4 +1,6 @@
-<template><Amcharts5 ref="callsChart" :createChart="_createChart" flex="1" :updateChart="_updateChart" @refresh="_chartRefresh"/>></template>
+<template>
+    <Amcharts5 ref="callsChart" :createChart="_createChart" flex="1"/>
+</template>
 
 <script>
 import Amcharts5 from "#vue/components/amcharts5";
