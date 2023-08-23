@@ -1,13 +1,13 @@
 <template>
-    <Amcharts5 ref="callsChart" :createChart="_createChart" flex="1"/>
+    <AmchartsPanel ref="callsChart" :createChart="_createChart" flex="1"/>
 </template>
 
 <script>
-import Amcharts5 from "#vue/components/amcharts5";
+import AmchartsPanel from "#vue/components/amcharts5/panel";
 import * as am5xy from "@amcharts/amcharts5/xy";
 
 export default {
-    "components": { Amcharts5 },
+    "components": { AmchartsPanel },
 
     "methods": {
         _createChart ( cmp ) {
