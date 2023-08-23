@@ -38,16 +38,17 @@ export default {
             const xAxis = chart.xAxes.push( am5xy.DateAxis.new( root, {
                 "baseInterval": {
                     "timeUnit": "day",
-                    "count": 20,
+                    "count": 1,
                 },
                 "renderer": am5xy.AxisRendererX.new( root, {} ),
-                "tooltipDateFormat": "HH:mm",
+                "tooltipDateFormat": "i",
                 "tooltip": am5.Tooltip.new( root, {} ),
             } ) );
 
             // y axis
             const yAxis = chart.yAxes.push( am5xy.ValueAxis.new( root, {
                 "renderer": am5xy.AxisRendererY.new( root, {} ),
+                "tooltip": am5.Tooltip.new( root, {} ),
             } ) );
 
             // series 1
