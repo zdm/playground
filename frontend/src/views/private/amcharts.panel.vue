@@ -1,5 +1,5 @@
 <template>
-    <AmchartsPanel ref="callsChart" :createChart="_createChart" flex="1"/>
+    <AmchartsPanel ref="callsChart" :animated="true" :createChart="_createChart" flex="1"/>
 </template>
 
 <script>
@@ -14,116 +14,113 @@ export default {
             const root = cmp.root,
                 am5 = cmp.am5;
 
-            var chart = root.container.children.push( am5xy.XYChart.new( root, {
+            // chart
+            const chart = root.container.children.push( am5xy.XYChart.new( root, {
+                "layout": root.verticalLayout,
                 "panX": true,
-                "panY": true,
-                "wheelX": "panX",
-                "wheelY": "zoomX",
+
+                // "wheelX": "panX",
                 "pinchZoomX": true,
+
+                // "panY": true,
+                // "wheelY": "zoomX",
             } ) );
 
-            // Add cursor
-            // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
-            var cursor = chart.set( "cursor", am5xy.XYCursor.new( root, {} ) );
-            cursor.lineY.set( "visible", false );
+            // title
+            chart.children.unshift( am5.Label.new( root, {
+                "text": this.l10nd( "vue-ext", "Total subscribed users" ),
+                "fontSize": 12,
+                "x": am5.percent( 50 ),
+                "centerX": am5.percent( 50 ),
+            } ) );
 
-            // Create axes
-            // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
-            var xRenderer = am5xy.AxisRendererX.new( root, { "minGridDistance": 30 } );
-            xRenderer.labels.template.setAll( {
-                "rotation": -90,
-                "centerY": am5.p50,
-                "centerX": am5.p100,
-                "paddingRight": 15,
-            } );
-
-            xRenderer.grid.template.setAll( {
-                "location": 1,
-            } );
-
-            var xAxis = chart.xAxes.push( am5xy.CategoryAxis.new( root, {
-                "maxDeviation": 0.3,
-                "categoryField": "country",
-                "renderer": xRenderer,
+            // x axis
+            const xAxis = chart.xAxes.push( am5xy.DateAxis.new( root, {
+                "baseInterval": {
+                    "timeUnit": "day",
+                    "count": 20,
+                },
+                "renderer": am5xy.AxisRendererX.new( root, {} ),
+                "tooltipDateFormat": "HH:mm",
                 "tooltip": am5.Tooltip.new( root, {} ),
             } ) );
 
-            var yAxis = chart.yAxes.push( am5xy.ValueAxis.new( root, {
-                "maxDeviation": 0.3,
-                "renderer": am5xy.AxisRendererY.new( root, {
-                    "strokeOpacity": 0.1,
-                } ),
+            // y axis
+            const yAxis = chart.yAxes.push( am5xy.ValueAxis.new( root, {
+                "renderer": am5xy.AxisRendererY.new( root, {} ),
             } ) );
 
-            // Create series
-            // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
-            var series = chart.series.push( am5xy.ColumnSeries.new( root, {
-                "name": "Series 1",
-                "xAxis": xAxis,
-                "yAxis": yAxis,
-                "valueYField": "value",
-                "sequencedInterpolation": true,
-                "categoryXField": "country",
+            // series 1
+            const series1 = chart.series.push( am5xy.SmoothedXLineSeries.new( root, {
+                "name": this.l10nd( `vue-ext`, "Total subscribed users" ),
+                xAxis,
+                yAxis,
+                "valueXField": "date",
+                "valueYField": "value1",
                 "tooltip": am5.Tooltip.new( root, {
-                    "labelText": "{valueY}",
+                    "labelText": this.l10nd( "vue-ext", "Subscribed users" ) + ": {valueY}",
                 } ),
+                "stroke": am5.color( "#00ff00" ),
+                "fill": am5.color( "#00ff00" ),
+                "connect": true, // XXX
             } ) );
 
-            // Set data
-            var data = [
+            // fill settings
+            series1.fills.template.setAll( {
+                "fillOpacity": 0.5,
+                "visible": true,
+            } );
+
+            // date processor
+            series1.data.processor = am5.DataProcessor.new( root, {
+                "dateFields": ["date"],
+                "dateFormat": "i",
+            } );
+
+            // scroll bar
+            chart.set(
+                "scrollbarX",
+                am5.Scrollbar.new( root, {
+                    "orientation": "horizontal",
+                } )
+            );
+
+            // cursor
+            chart.set(
+                "cursor",
+                am5xy.XYCursor.new( root, {
+                    "behavior": "zoomX",
+                } )
+            );
+
+            // legend
+            const legend = chart.children.push( am5.Legend.new( root, {
+                "centerX": am5.p50,
+                "x": am5.p50,
+            } ) );
+
+            legend.data.setAll( chart.series.values );
+
+            const data = [
                 {
-                    "country": "USA",
-                    "value": 2025,
+                    "date": "2023-01-01 00:00:00",
+                    "value1": 10,
                 },
                 {
-                    "country": "China",
-                    "value": 1882,
+                    "date": "2023-01-15 00:00:00",
+                    "value1": 200,
                 },
                 {
-                    "country": "Japan",
-                    "value": 1809,
+                    "date": "2023-01-25 00:00:00",
+                    "value1": 0,
                 },
                 {
-                    "country": "Germany",
-                    "value": 1322,
-                },
-                {
-                    "country": "UK",
-                    "value": 1122,
-                },
-                {
-                    "country": "France",
-                    "value": 1114,
-                },
-                {
-                    "country": "India",
-                    "value": 984,
-                },
-                {
-                    "country": "Spain",
-                    "value": 711,
-                },
-                {
-                    "country": "Netherlands",
-                    "value": 665,
-                },
-                {
-                    "country": "South Korea",
-                    "value": 443,
-                },
-                {
-                    "country": "Canada",
-                    "value": 441,
+                    "date": "2023-02-01 00:00:00",
+                    "value1": 100,
                 },
             ];
 
-            xAxis.data.setAll( data );
-            series.data.setAll( data );
-
-            // Make stuff animate on load
-            // https://www.amcharts.com/docs/v5/concepts/animations/
-            series.appear( 1000 );
-            chart.appear( 1000, 100 );
+            cmp.setData( data );
         },
     },
 };
