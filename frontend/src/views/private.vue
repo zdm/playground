@@ -81,7 +81,7 @@ import FroalaPanel from "./private/froala.panel";
 import ExtChartsPanel from "./private/ext-charts.panel";
 import NotificatiosSubscribeButton from "#vue/components/notifications/subscribe.button";
 import AmchartsPanel from "./private/amcharts.panel";
-import TelegramBotPanel from "#vue/components/telegram/bot.panel";
+import TelegramBotPanel from "#vue/components/telegram/bot/panel";
 
 // import constants from "@/constants";
 
