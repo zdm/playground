@@ -23,8 +23,8 @@ components:
       default:
         roles:
           test:
-            name: Test
-            description: Test scope
+            name: !l10nt Test
+            description: !l10nt Test scope
             permissions:
               - acl:*
 
