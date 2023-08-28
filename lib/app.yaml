@@ -20,7 +20,7 @@ components:
 
   acl:
     types:
-      default:
+      main:
         roles:
           test:
             name: !l10nt Test
