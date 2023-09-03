@@ -1,6 +1,6 @@
 <template>
     <ext-panel layout="fit" scrollable="true">
-        <AppTitle ref="title" @showAccountDialog="showAccountDialog">
+        <AppTitle ref="title">
             <template #title>
                 <NotificatiosSubscribeButton align="right" ui="action"/>
             </template>
@@ -75,7 +75,6 @@
 <script>
 import AppTitle from "#vue/components/application/title";
 import UsersDialog from "#vue/components/administration/users/dialog";
-import AccountDialog from "./private/account/dialog";
 import AclDialog from "#vue/components/acl/dialog";
 import MethodsMonitoringPanel from "#vue/components/development/monitoring/methods/panel";
 import FroalaPanel from "./private/froala.panel";
@@ -114,12 +113,6 @@ export default {
 
         async showUsersDialog () {
             const cmp = await this.$mount( UsersDialog );
-
-            cmp.ext.show();
-        },
-
-        async showAccountDialog () {
-            const cmp = await this.$mount( AccountDialog );
 
             cmp.ext.show();
         },
