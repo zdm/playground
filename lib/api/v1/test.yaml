@@ -34,6 +34,10 @@ methods:
     title: Send test notification
     permission: users
 
+  send-acl-notification:
+    title: Send ACL test notification
+    permission: users
+
   send-push-notification:
     title: Send test push notification
     permission: users

@@ -18,34 +18,31 @@
 
             <!-- main panel -->
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Main`)">
-                <ext-panel layout='{"align":"center","pack":"center","type":"vbox"}'>
+                <ext-panel defaults='{"margin":10}' layout='{"align":"center","pack":"center","type":"vbox"}'>
                     <!-- notifications subscribe -->
                     <NotificatiosSubscribeButton aclId="-1" ui="action"/>
-                    <ext-container height="20"/>
 
                     <!-- users -->
                     <ext-button text="Show users" ui="action" @tap="showUsersDialog"/>
-                    <ext-container height="20"/>
 
                     <!-- acl -->
                     <ext-button text="Show acl" ui="action" @tap="_showAcl"/>
-                    <ext-container height="20"/>
 
-                    <!-- send notification -->
-                    <ext-button text="Send notification" ui="action" @tap="_sendNotification"/>
-                    <ext-container height="20"/>
+                    <!-- notifications -->
+                    <ext-container defaults='{"margin":10}' layout="hbox">
+                        <ext-button text="Send notification" ui="action" @tap="_sendNotification"/>
 
-                    <!-- send push notification -->
-                    <ext-button text="Send push notification" ui="action" @tap="_sendPushNotification"/>
-                    <ext-container height="20"/>
+                        <ext-button text="Send ACL notification" ui="action" @tap="_sendAclNotification"/>
+
+                        <ext-button text="Send push notification" ui="action" @tap="_sendPushNotification"/>
+                    </ext-container>
 
                     <!-- upload                 -->
-                    <ext-container layout="hbox">
+                    <ext-container defaults='{"margin":10}' layout="hbox">
                         <ext-filebutton text="Upload file" ui="action" @change="_uploadFile"/>
-                        <ext-spacer width="20"/>
+
                         <ext-button text="Download file" ui="action" @tap="_downloadFile"/>
                     </ext-container>
-                    <ext-container height="20"/>
                 </ext-panel>
             </ext-panel>
 
@@ -128,12 +125,16 @@ export default {
             cmp.ext.show();
         },
 
-        async _sendPushNotification () {
-            this.$api.call( "test/send-push-notification" );
-        },
-
         async _sendNotification () {
             this.$api.call( "test/send-notification" );
+        },
+
+        async _sendAclNotification () {
+            this.$api.call( "test/send-acl-notification" );
+        },
+
+        async _sendPushNotification () {
+            this.$api.call( "test/send-push-notification" );
         },
 
         async _uploadFile ( e ) {
