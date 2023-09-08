@@ -28,7 +28,7 @@ export default {
 
             // title
             chart.children.unshift( am5.Label.new( root, {
-                "text": this.l10nd( "vue-ext", "Total subscribed users" ),
+                "text": this.l10n( "Total subscribed users" ),
                 "fontSize": 12,
                 "x": am5.percent( 50 ),
                 "centerX": am5.percent( 50 ),
@@ -53,13 +53,13 @@ export default {
 
             // series 1
             const series1 = chart.series.push( am5xy.SmoothedXLineSeries.new( root, {
-                "name": this.l10nd( `vue-ext`, "Total subscribed users" ),
+                "name": this.l10n( "Total subscribed users" ),
                 xAxis,
                 yAxis,
                 "valueXField": "date",
                 "valueYField": "value1",
                 "tooltip": am5.Tooltip.new( root, {
-                    "labelText": this.l10nd( "vue-ext", "Subscribed users" ) + ": {valueY}",
+                    "labelText": this.l10n( "Subscribed users" ) + ": {valueY}",
                 } ),
                 "stroke": am5.color( "#00ff00" ),
                 "fill": am5.color( "#00ff00" ),
