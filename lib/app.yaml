@@ -23,15 +23,15 @@ components:
       main:
         roles:
           test:
-            name: !l10nt Test
-            description: !l10nt Test scope
+            name: !l10nt [Test, { tags: backend }]
+            description: !l10nt [Test scope, { tags: backend }]
             permissions:
               - acl:*
 
         notifications:
           test:
-            name: !l10nt ACL test
-            description: !l10nt Test notifications
+            name: !l10nt [ACL test, { tags: backend }]
+            description: !l10nt [Test notifications, { tags: backend }]
             roles: ~
             channels:
               telegram: { editable: false, subscribed: true }
@@ -39,8 +39,8 @@ components:
   notifications:
     types:
       test:
-        name: !l10nt Test
-        description: !l10nt Test notifications
+        name: !l10nt [Test, { tags: backend }]
+        description: !l10nt [Test notifications, { tags: backend }]
         channels:
           internal: { editable: true }
           push: { editable: true }
