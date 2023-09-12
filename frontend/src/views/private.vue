@@ -154,7 +154,7 @@ export default {
 
             console.log( "--- upload", res + "" );
 
-            this.$utils.toast( res );
+            this.$toast( res );
         },
 
         async _downloadFile ( e ) {
@@ -162,7 +162,7 @@ export default {
 
             console.log( "download:", res + "", res.data?.url );
 
-            this.$utils.toast( res );
+            this.$toast( res );
         },
     },
 };
