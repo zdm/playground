@@ -13,31 +13,27 @@ msgstr ""
 "X-Search-Path: /lib/**:!/lib/components/**\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#. !tags: backend
-#: lib/app.yaml
+#: ../app.yaml
 msgid "ACL test"
 msgstr ""
 
-#: lib/api/v1/test.js:81:46
+#: ../api/v1/test.js:81:46
 msgid "ACL Test"
 msgstr ""
 
-#. !tags: backend
-#: lib/api/v1/test.js:64:46 lib/app.yaml
+#: ../api/v1/test.js:64:46 ../app.yaml
 msgid "Test"
 msgstr "Тест"
 
-#. !tags: backend
-#: lib/app.yaml
+#: ../app.yaml
 msgid "Test notifications"
 msgstr ""
 
-#. !tags: backend
-#: lib/app.yaml
+#: ../app.yaml
 msgid "Test scope"
 msgstr ""
 
-#: lib/api/v1/test.js:66:20 lib/api/v1/test.js:83:20
+#: ../api/v1/test.js:66:20 ../api/v1/test.js:83:20
 #, javascript-format
 msgid ""
 "The Request a Test Notification endpoint prompts the App Store server to send your server a notification with the TEST notificationType.\n"
