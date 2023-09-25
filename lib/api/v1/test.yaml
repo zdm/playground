@@ -22,8 +22,8 @@ methods:
           type: object
           properties:
             params: { type: object }
-            file1: { file: { maxSize: 50_000_000 } }
-            file2: { file: { maxSize: 50_000_000, contentType: text/plain } }
+            file1: { file: { maxSize: 50 MB } }
+            file2: { file: { maxSize: 50 MB, contentType: text/plain } }
           additionalProperties: false
           required: []
 
