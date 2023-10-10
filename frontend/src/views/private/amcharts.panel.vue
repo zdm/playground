@@ -112,8 +112,6 @@ export default {
         },
 
         async refresh () {
-            this.hasData = !this.hasData;
-
             const data = [],
                 date = new Date( "2023-01-01" );
 
@@ -122,7 +120,7 @@ export default {
 
                 data.push( {
                     "date": date.toISOString(),
-                    "value1": this.hasData ? Math.floor( Math.random() * 100 ) : 0,
+                    "value1": Math.floor( Math.random() * 100 ),
                 } );
             }
 
