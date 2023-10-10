@@ -1,5 +1,9 @@
 <template>
-    <AmchartsPanel ref="callsChart" :animated="true" :createChart="_createChart" flex="1"/>
+    <ext-container layout="vbox">
+        <ext-button text="Resresh" @tap="refresh"/>
+
+        <AmchartsPanel ref="callsChart" :animated="true" :createChart="_createChart" flex="1"/>
+    </ext-container>
 </template>
 
 <script>
@@ -11,6 +15,8 @@ export default {
 
     "methods": {
         _createChart ( cmp ) {
+            this.chart = cmp;
+
             const root = cmp.root,
                 am5 = cmp.am5;
 
@@ -37,7 +43,7 @@ export default {
             // x axis
             const xAxis = chart.xAxes.push( am5xy.DateAxis.new( root, {
                 "baseInterval": {
-                    "timeUnit": "day",
+                    "timeUnit": "hour",
                     "count": 1,
                 },
                 "renderer": am5xy.AxisRendererX.new( root, {} ),
@@ -102,26 +108,25 @@ export default {
 
             legend.data.setAll( chart.series.values );
 
-            const data = [
-                {
-                    "date": "2023-01-01 00:00:00",
-                    "value1": 10,
-                },
-                {
-                    "date": "2023-01-15 00:00:00",
-                    "value1": 200,
-                },
-                {
-                    "date": "2023-01-25 00:00:00",
-                    "value1": 0,
-                },
-                {
-                    "date": "2023-02-01 00:00:00",
-                    "value1": 100,
-                },
-            ];
+            this.refresh();
+        },
 
-            cmp.setData( data );
+        async refresh () {
+            this.hasData = !this.hasData;
+
+            const data = [],
+                date = new Date( "2023-01-01" );
+
+            for ( let n = 0; n < 5; n++ ) {
+                date.setHours( date.getHours() + 1 );
+
+                data.push( {
+                    "date": date.toISOString(),
+                    "value1": this.hasData ? Math.floor( Math.random() * 100 ) : 0,
+                } );
+            }
+
+            this.chart.setData( data );
         },
     },
 };
