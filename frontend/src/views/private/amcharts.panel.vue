@@ -2,22 +2,20 @@
     <ext-container layout="vbox">
         <ext-button text="Resresh" @tap="refresh"/>
 
-        <AmchartsPanel ref="callsChart" :animated="true" :createChart="_createChart" flex="1"/>
+        <ext-amcharts5 :createChart="_createChart" flex="1"/>
     </ext-container>
 </template>
 
 <script>
-import AmchartsPanel from "#vue/components/amcharts5/panel";
+import "#vue/components/amcharts5";
 import * as am5xy from "@amcharts/amcharts5/xy";
 
 export default {
-    "components": { AmchartsPanel },
-
     "methods": {
         _createChart ( cmp ) {
             this.chart = cmp;
 
-            const root = cmp.root,
+            const root = cmp.root1,
                 am5 = cmp.am5;
 
             // chart
