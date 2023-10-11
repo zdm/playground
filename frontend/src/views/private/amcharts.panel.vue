@@ -15,7 +15,7 @@ export default {
         _createChart ( cmp ) {
             this.chart = cmp;
 
-            const root = cmp.root1,
+            const root = cmp.root,
                 am5 = cmp.am5;
 
             // chart
