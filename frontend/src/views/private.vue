@@ -18,6 +18,19 @@
             <!-- main panel -->
             <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Main`)">
                 <ext-panel defaults='{"margin":10}' layout='{"align":"center","pack":"center","type":"vbox"}'>
+                    <!-- toggle -->
+                    <ext-container ref="toggle" layout="hbox" viewModel='{"data":{"value":true}}'>
+                        <ext-displayfield bind="{value}"/>
+
+                        <ext-spacer width="10"/>
+
+                        <ext-togglefield bind="{value}"/>
+
+                        <ext-spacer width="10"/>
+
+                        <ext-togglefield bind="{value}" @change="onToggleChange"/>
+                    </ext-container>
+
                     <!-- notifications subscribe -->
                     <NotificatiosSubscribeButton aclId="-1" ui="action"/>
 
@@ -161,6 +174,23 @@ export default {
             console.log( "download:", res + "", res.data?.url );
 
             this.$toast( res );
+        },
+
+        async onToggleChange ( e ) {
+            const value = e.detail.newValue,
+                button = e.detail.sender,
+                viewModel = this.$refs.toggle.ext.getViewModel();
+
+            if ( viewModel.get( "value" ) === value ) return;
+
+            button.disable();
+
+            // await this.$utils.sleep( 1000 );
+
+            viewModel.set( "value", !value ); // alert( value );
+            button.setValue( !value );
+
+            button.enable();
         },
     },
 };
