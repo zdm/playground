@@ -2,11 +2,11 @@ FROM ghcr.io/zerocluster/node/app
 
 RUN \
     # install deps
-    npm i --omit=dev \
+    NODE_ENV=production npm i \
     \
     # build frontend
     && pushd frontend \
-    && NODE_ENV= npm i \
+    && NODE_ENV=development npm i \
     && npm run build \
     && mv www /tmp && rm -rf * && mv /tmp/www . \
     && popd \
