@@ -4,7 +4,6 @@ dependencies:
 services:
   api:
     components:
-      locales: true
       threads: true
       api: true
       rpc: true
