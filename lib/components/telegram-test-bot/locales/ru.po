@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: ../**\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: ../telegram/modules/start.js:42:35
 msgid "<- back"
@@ -43,12 +43,11 @@ msgstr ""
 
 #: ../telegram/modules/start.js:54:40 ../telegram/modules/start.js:97:60
 msgid "some action"
-msgstr ""
+msgstr "какое-то действие"
 
 #: ../telegram/modules/start.js:34:35
-#, fuzzy
 msgid "Start"
-msgstr "Запустить"
+msgstr "Старт"
 
 #: ../telegram/modules/start.js:38:35
 #, fuzzy
