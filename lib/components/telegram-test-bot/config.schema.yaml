@@ -1,0 +1,12 @@
+- $id: public-config
+  type: object
+  properties:
+    acl: false
+
+- $id: config
+  type: object
+  properties:
+    telegram: { type: object }
+
+  additionalProperties: false
+  required: [telegram]
