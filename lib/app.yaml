@@ -9,6 +9,7 @@ services:
       rpc: true
       webpack: true
       telegramSupportBot: true
+      telegramTestBot: true
       # nginx: true
 
 defaultService: api
