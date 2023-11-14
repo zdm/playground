@@ -13,6 +13,10 @@ msgstr ""
 "X-Search-Path: ../**:!../components/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
+#: ../components/telegram-test-bot/telegram/modules/start.js:42:35
+msgid "<- back"
+msgstr ""
+
 #: ../app.yaml
 msgid "ACL test"
 msgstr ""
@@ -21,7 +25,38 @@ msgstr ""
 msgid "ACL Test"
 msgstr ""
 
+#: ../components/telegram-test-bot/config.yaml
+msgid "Bot read-only permissions"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:102:40
+msgid "Contact"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:108:40
+msgid "Location"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:60:40
+msgid "open localhost"
+msgstr ""
+
+#: ../components/telegram-test-bot/config.yaml
+msgid "Read-only"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:54:40
+#: ../components/telegram-test-bot/telegram/modules/start.js:97:60
+msgid "some action"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:34:35
+#, fuzzy
+msgid "Start"
+msgstr "Запустить"
+
 #: ../api/v1/test.js:64:46 ../app.yaml
+#: ../components/telegram-test-bot/telegram/modules/start.js:38:35
 msgid "Test"
 msgstr "Тест"
 
@@ -43,3 +78,8 @@ msgstr ""
 "Конечная точка Request a Test Notification предлагает серверу App Store отправить вашему серверу уведомление с типом уведомления TEST.\n"
 "\n"
 "Дата: ${n}\n"
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:114:40
+#: ../components/telegram-test-bot/telegram/modules/start.js:66:40
+msgid "webapp"
+msgstr ""

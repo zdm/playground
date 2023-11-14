@@ -13,6 +13,10 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.2\n"
 
+#: ../telegram/modules/start.js:42:35
+msgid "<- back"
+msgstr ""
+
 #: ../config.yaml
 msgid "Administrator"
 msgstr "Адміністратор"
@@ -21,13 +25,43 @@ msgstr "Адміністратор"
 msgid "Bot read-only permissions"
 msgstr ""
 
+#: ../telegram/modules/start.js:102:40
+msgid "Contact"
+msgstr ""
+
+#: ../telegram/modules/start.js:108:40
+msgid "Location"
+msgstr ""
+
+#: ../telegram/modules/start.js:60:40
+msgid "open localhost"
+msgstr ""
+
 #: ../config.yaml
 msgid "Read-only"
 msgstr ""
 
+#: ../telegram/modules/start.js:54:40 ../telegram/modules/start.js:97:60
+msgid "some action"
+msgstr ""
+
+#: ../telegram/modules/start.js:34:35
+#, fuzzy
+msgid "Start"
+msgstr "Запустити"
+
+#: ../telegram/modules/start.js:38:35
+#, fuzzy
+msgid "Test"
+msgstr "Тест"
+
 #: ../telegram/modules/start.js:10:44
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
+
+#: ../telegram/modules/start.js:114:40 ../telegram/modules/start.js:66:40
+msgid "webapp"
+msgstr ""
 
 #: ../telegram/modules/start.js:7:44
 msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
