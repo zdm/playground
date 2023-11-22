@@ -6,7 +6,6 @@ optionalDependencies: ~
 config:
   telegram:
     locales: [en-GB, en-US, ru-RU, uk-UA]
-    webAppUrl: https://telegram-webapp.localhost/
 
     acl:
       roles:
