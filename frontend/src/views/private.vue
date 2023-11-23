@@ -92,8 +92,6 @@ import NotificatiosSubscribeButton from "#vue/components/notifications/subscribe
 import AmchartsPanel from "./private/amcharts.panel";
 import TelegramBotsPanel from "#vue/components/telegram/bots.panel";
 
-import "./private/telegram-test-bot/component";
-
 // import constants from "@/constants";
 
 export default {

@@ -7,6 +7,8 @@ export default {
     created () {
         this.publicView = () => import( /* webpackChunkName: "public" */ "@/views/public.vue" );
         this.privateView = () => import( /* webpackChunkName: "private" */ "@/views/private.vue" );
+
+        import( "#src/views/private/telegram-test-bot/component" );
     },
 
     "methods": {
