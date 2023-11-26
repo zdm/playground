@@ -13,10 +13,6 @@ msgstr ""
 "X-Search-Path: ../**:!../components/**\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:42:35
-msgid "<- back"
-msgstr ""
-
 #: ../app.yaml
 msgid "ACL test"
 msgstr ""
@@ -25,38 +21,68 @@ msgstr ""
 msgid "ACL Test"
 msgstr ""
 
+#: ../components/telegram-test-bot/telegram/modules/settings.js:18:67
+msgid "Back"
+msgstr "Назад"
+
 #: ../components/telegram-test-bot/config.yaml
 msgid "Bot read-only permissions"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:102:40
-msgid "Contact"
+#: ../components/telegram-test-bot/telegram/modules/settings.js:12:40
+msgid "Change communication landuage"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:108:40
-msgid "Location"
+#: ../components/telegram-test-bot/telegram/modules/start.js:11:31
+msgid "Create post"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:60:40
+#: ../components/telegram-test-bot/telegram/modules/create-post.js:135:74
+msgid "Next post"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:39:40
+#: ../components/telegram-test-bot/telegram/modules/start.js:43:40
 msgid "open localhost"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/create-post.js:52:37
+msgid "Please, enter post"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/create-post.js:39:37
+msgid "Please, enter post subject"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/create-post.js:131:71
+msgid "Previous post"
 msgstr ""
 
 #: ../components/telegram-test-bot/config.yaml
 msgid "Read-only"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:54:40
-#: ../components/telegram-test-bot/telegram/modules/start.js:97:60
+#: ../components/telegram-test-bot/telegram/modules/create-post.js:98:71
+msgid "Return to start"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:12:28
+msgid "Settings"
+msgstr "Налаштування"
+
+#: ../components/telegram-test-bot/telegram/modules/settings.js:7:24
+msgid "Settings:"
+msgstr ""
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:35:40
 msgid "some action"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:34:35
-#, fuzzy
+#: ../components/telegram-test-bot/telegram/modules/start.js:10:25
 msgid "Start"
 msgstr "Запустити"
 
 #: ../api/v1/test.js:64:46 ../app.yaml
-#: ../components/telegram-test-bot/telegram/modules/start.js:38:35
 msgid "Test"
 msgstr "Тест"
 
@@ -79,7 +105,6 @@ msgstr ""
 "\n"
 "Дата: ${n}\n"
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:114:40
-#: ../components/telegram-test-bot/telegram/modules/start.js:66:40
+#: ../components/telegram-test-bot/telegram/modules/start.js:49:40
 msgid "webapp"
 msgstr ""

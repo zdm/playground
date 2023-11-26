@@ -13,40 +13,67 @@ msgstr ""
 "X-Search-Path: ../**\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: ../telegram/modules/start.js:42:35
-msgid "<- back"
-msgstr ""
-
 #: ../config.yaml
 msgid "Administrator"
 msgstr "Адміністратор"
+
+#: ../telegram/modules/settings.js:18:67
+msgid "Back"
+msgstr "Назад"
 
 #: ../config.yaml
 msgid "Bot read-only permissions"
 msgstr ""
 
-#: ../telegram/modules/start.js:102:40
-msgid "Contact"
+#: ../telegram/modules/settings.js:12:40
+msgid "Change communication landuage"
 msgstr ""
 
-#: ../telegram/modules/start.js:108:40
-msgid "Location"
+#: ../telegram/modules/start.js:11:31
+msgid "Create post"
 msgstr ""
 
-#: ../telegram/modules/start.js:60:40
+#: ../telegram/modules/create-post.js:135:74
+msgid "Next post"
+msgstr ""
+
+#: ../telegram/modules/start.js:39:40 ../telegram/modules/start.js:43:40
 msgid "open localhost"
+msgstr ""
+
+#: ../telegram/modules/create-post.js:52:37
+msgid "Please, enter post"
+msgstr ""
+
+#: ../telegram/modules/create-post.js:39:37
+msgid "Please, enter post subject"
+msgstr ""
+
+#: ../telegram/modules/create-post.js:131:71
+msgid "Previous post"
 msgstr ""
 
 #: ../config.yaml
 msgid "Read-only"
 msgstr ""
 
-#: ../telegram/modules/start.js:54:40 ../telegram/modules/start.js:97:60
+#: ../telegram/modules/create-post.js:98:71
+msgid "Return to start"
+msgstr ""
+
+#: ../telegram/modules/start.js:12:28
+msgid "Settings"
+msgstr "Налаштування"
+
+#: ../telegram/modules/settings.js:7:24
+msgid "Settings:"
+msgstr ""
+
+#: ../telegram/modules/start.js:35:40
 msgid "some action"
 msgstr ""
 
-#: ../telegram/modules/start.js:34:35
-#, fuzzy
+#: ../telegram/modules/start.js:10:25
 msgid "Start"
 msgstr "Запустити"
 
@@ -59,7 +86,7 @@ msgstr "Тест"
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
-#: ../telegram/modules/start.js:114:40 ../telegram/modules/start.js:66:40
+#: ../telegram/modules/start.js:49:40
 msgid "webapp"
 msgstr ""
 
