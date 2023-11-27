@@ -1,5 +1,5 @@
 <template>
-    <ext-panel html="webapp 123" layout="center"/>
+    <ext-panel :html="$app.user.email" layout="center"/>
 </template>
 
 <script>
