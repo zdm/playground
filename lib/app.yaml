@@ -10,6 +10,7 @@ services:
       webpack: true
       telegramSupportBot: true
       telegramTestBot: true
+      storage: true
       # nginx: true
 
 defaultService: api
