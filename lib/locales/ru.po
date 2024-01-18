@@ -80,7 +80,7 @@ msgstr "какое-то действие"
 
 #: ../components/telegram-test-bot/telegram/modules/start.js:10:25
 msgid "Start"
-msgstr "Запустить"
+msgstr "Старт"
 
 #: ../api/v1/test.js:64:46 ../app.yaml
 msgid "Test"
