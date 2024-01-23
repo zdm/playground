@@ -34,7 +34,7 @@ export default {
                 {
                     "type": "category",
                     "position": "bottom",
-                    "visibleRange": [0, 0.4],
+                    "visibleRange": [ 0, 0.4 ],
                 },
             ] );
 
@@ -42,8 +42,8 @@ export default {
                 {
                     "type": "area",
                     "xField": "name",
-                    "yField": ["g1", "g2"],
-                    "title": ["G1", "G2"],
+                    "yField": [ "g1", "g2" ],
+                    "title": [ "G1", "G2" ],
                     "style": {
                         "stroke": "#666666",
                         "fillOpacity": 0.8,
@@ -52,7 +52,7 @@ export default {
             ] );
 
             chart.setStore( {
-                "fields": ["name", "g1", "g2"],
+                "fields": [ "name", "g1", "g2" ],
                 "data": [
                     { "name": "Item-0", "g1": 18.34, "g2": 0.04 },
                     { "name": "Item-1", "g1": 2.67, "g2": 14.87 },

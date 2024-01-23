@@ -78,7 +78,7 @@ export default {
 
             // date processor
             series1.data.processor = am5.DataProcessor.new( root, {
-                "dateFields": ["date"],
+                "dateFields": [ "date" ],
                 "dateFormat": "i",
             } );
 
