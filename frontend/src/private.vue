@@ -148,7 +148,7 @@ export default {
 
         async _uploadFile ( e ) {
             const button = e.detail.sender,
-                file = button.getFiles()[0];
+                file = button.getFiles()[ 0 ];
 
             button.clearFiles();
 
