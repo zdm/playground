@@ -29,15 +29,11 @@ msgstr ""
 msgid "Change communication landuage"
 msgstr ""
 
-#: ../telegram/modules/start.js:11:31
-msgid "Create post"
-msgstr ""
-
 #: ../telegram/modules/create-post.js:135:74
 msgid "Next post"
 msgstr ""
 
-#: ../telegram/modules/start.js:39:40 ../telegram/modules/start.js:43:40
+#: ../telegram/modules/start.js:40:40 ../telegram/modules/start.js:44:40
 msgid "open localhost"
 msgstr ""
 
@@ -69,7 +65,7 @@ msgstr "Налаштування"
 msgid "Settings:"
 msgstr ""
 
-#: ../telegram/modules/start.js:35:40
+#: ../telegram/modules/start.js:36:40
 msgid "some action"
 msgstr ""
 
@@ -86,7 +82,7 @@ msgstr "Тест"
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
-#: ../telegram/modules/start.js:49:40
+#: ../telegram/modules/start.js:50:40
 msgid "webapp"
 msgstr ""
 
