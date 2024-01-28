@@ -21,7 +21,7 @@ msgstr ""
 msgid "ACL Test"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/settings.js:18:67
+#: ../components/telegram-test-bot/telegram/commands/settings.js:18:67
 msgid "Back"
 msgstr "Назад"
 
@@ -29,28 +29,28 @@ msgstr "Назад"
 msgid "Bot read-only permissions"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/settings.js:12:40
+#: ../components/telegram-test-bot/telegram/commands/settings.js:12:40
 msgid "Change communication landuage"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/create-post.js:135:74
+#: ../components/telegram-test-bot/telegram/commands/create-post.js:135:74
 msgid "Next post"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:40:40
-#: ../components/telegram-test-bot/telegram/modules/start.js:44:40
+#: ../components/telegram-test-bot/telegram/commands/start.js:40:40
+#: ../components/telegram-test-bot/telegram/commands/start.js:44:40
 msgid "open localhost"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/create-post.js:52:37
+#: ../components/telegram-test-bot/telegram/commands/create-post.js:52:37
 msgid "Please, enter post"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/create-post.js:39:37
+#: ../components/telegram-test-bot/telegram/commands/create-post.js:39:37
 msgid "Please, enter post subject"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/create-post.js:131:71
+#: ../components/telegram-test-bot/telegram/commands/create-post.js:131:71
 msgid "Previous post"
 msgstr ""
 
@@ -58,7 +58,7 @@ msgstr ""
 msgid "Read-only"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/create-post.js:98:71
+#: ../components/telegram-test-bot/telegram/commands/create-post.js:98:71
 msgid "Return to start"
 msgstr ""
 
@@ -66,11 +66,11 @@ msgstr ""
 msgid "Settings"
 msgstr "Настройки"
 
-#: ../components/telegram-test-bot/telegram/modules/settings.js:7:24
+#: ../components/telegram-test-bot/telegram/commands/settings.js:7:24
 msgid "Settings:"
 msgstr ""
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:36:40
+#: ../components/telegram-test-bot/telegram/commands/start.js:36:40
 msgid "some action"
 msgstr "какое-то действие"
 
@@ -101,6 +101,6 @@ msgstr ""
 "\n"
 "Дата: ${n}\n"
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:50:40
+#: ../components/telegram-test-bot/telegram/commands/start.js:50:40
 msgid "webapp"
 msgstr ""
