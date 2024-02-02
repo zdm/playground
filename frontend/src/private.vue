@@ -91,6 +91,7 @@ import ExtChartsPanel from "./private/ext-charts.panel";
 import NotificatiosSubscribeButton from "#vue/components/notifications/subscribe.button";
 import AmchartsPanel from "./private/amcharts.panel";
 import TelegramBotsPanel from "#vue/components/telegram/bots.panel";
+import constants from "#core/app/constants";
 
 export default {
     "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel, NotificatiosSubscribeButton, AmchartsPanel, TelegramBotsPanel },
@@ -127,7 +128,7 @@ export default {
             const cmp = await this.$mount( AclDialog, {
                 "cache": false,
                 "props": {
-                    "aclId": "-1",
+                    "aclId": constants.mainAclId,
                 },
             } );
 
