@@ -25,47 +25,19 @@ msgstr "Назад"
 msgid "Bot read-only permissions"
 msgstr ""
 
-#: ../telegram/commands/settings.js:12:40
-msgid "Change communication landuage"
-msgstr ""
-
-#: ../telegram/commands/create-post.js:135:74
-msgid "Next post"
-msgstr ""
-
-#: ../telegram/commands/start.js:40:40 ../telegram/commands/start.js:44:40
+#: ../bot/commands/start.js:30:40 ../bot/commands/start.js:34:40
 msgid "open localhost"
-msgstr ""
-
-#: ../telegram/commands/create-post.js:52:37
-msgid "Please, enter post"
-msgstr ""
-
-#: ../telegram/commands/create-post.js:39:37
-msgid "Please, enter post subject"
-msgstr ""
-
-#: ../telegram/commands/create-post.js:131:71
-msgid "Previous post"
 msgstr ""
 
 #: ../config.yaml
 msgid "Read-only"
 msgstr ""
 
-#: ../telegram/commands/create-post.js:98:71
-msgid "Return to start"
-msgstr ""
-
 #: ../telegram/modules/start.js:12:28
 msgid "Settings"
 msgstr "Налаштування"
 
-#: ../telegram/commands/settings.js:7:24
-msgid "Settings:"
-msgstr ""
-
-#: ../telegram/commands/start.js:36:40
+#: ../bot/commands/start.js:26:40
 msgid "some action"
 msgstr ""
 
@@ -82,7 +54,7 @@ msgstr "Тест"
 msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
-#: ../telegram/commands/start.js:50:40
+#: ../bot/commands/start.js:40:40
 msgid "webapp"
 msgstr ""
 
