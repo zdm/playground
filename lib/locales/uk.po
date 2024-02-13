@@ -14,37 +14,43 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 
 #: ../app.yaml
+#, fuzzy
 msgid "ACL test"
-msgstr ""
+msgstr "Тест ACL"
 
 #: ../api/v1/test.js:81:46
+#, fuzzy
 msgid "ACL Test"
-msgstr ""
+msgstr "Тест ACL"
 
 #: ../components/telegram-test-bot/telegram/commands/settings.js:18:67
 msgid "Back"
 msgstr "Назад"
 
 #: ../components/telegram-test-bot/config.yaml
+#, fuzzy
 msgid "Bot read-only permissions"
-msgstr ""
+msgstr "Дозволи бота лише на читання"
 
 #: ../components/telegram-test-bot/bot/commands/start.js:30:40
 #: ../components/telegram-test-bot/bot/commands/start.js:34:40
+#, fuzzy
 msgid "open localhost"
-msgstr ""
+msgstr "відкрити локальний хост"
 
 #: ../components/telegram-test-bot/config.yaml
+#, fuzzy
 msgid "Read-only"
-msgstr ""
+msgstr "Лише для читання"
 
 #: ../components/telegram-test-bot/telegram/modules/start.js:12:28
 msgid "Settings"
 msgstr "Налаштування"
 
 #: ../components/telegram-test-bot/bot/commands/start.js:26:40
+#, fuzzy
 msgid "some action"
-msgstr ""
+msgstr "якась дія"
 
 #: ../components/telegram-test-bot/telegram/modules/start.js:10:25
 msgid "Start"
@@ -55,12 +61,14 @@ msgid "Test"
 msgstr "Тест"
 
 #: ../app.yaml
+#, fuzzy
 msgid "Test notifications"
-msgstr ""
+msgstr "Тестові повідомлення"
 
 #: ../app.yaml
+#, fuzzy
 msgid "Test scope"
-msgstr ""
+msgstr "Обсяг тесту"
 
 #: ../api/v1/test.js:66:20 ../api/v1/test.js:83:20
 #, javascript-format
@@ -74,5 +82,6 @@ msgstr ""
 "Дата: ${n}\n"
 
 #: ../components/telegram-test-bot/bot/commands/start.js:40:40
+#, fuzzy
 msgid "webapp"
-msgstr ""
+msgstr "webapp"

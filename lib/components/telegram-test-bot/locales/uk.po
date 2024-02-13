@@ -22,24 +22,28 @@ msgid "Back"
 msgstr "Назад"
 
 #: ../config.yaml
+#, fuzzy
 msgid "Bot read-only permissions"
-msgstr ""
+msgstr "Дозволи бота лише на читання"
 
 #: ../bot/commands/start.js:30:40 ../bot/commands/start.js:34:40
+#, fuzzy
 msgid "open localhost"
-msgstr ""
+msgstr "відкрити локальний хост"
 
 #: ../config.yaml
+#, fuzzy
 msgid "Read-only"
-msgstr ""
+msgstr "Лише для читання"
 
 #: ../telegram/modules/start.js:12:28
 msgid "Settings"
 msgstr "Налаштування"
 
 #: ../bot/commands/start.js:26:40
+#, fuzzy
 msgid "some action"
-msgstr ""
+msgstr "якась дія"
 
 #: ../telegram/modules/start.js:10:25
 msgid "Start"
@@ -55,8 +59,9 @@ msgid "This is notifications bot. It doesn't support any additional commands."
 msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
 #: ../bot/commands/start.js:40:40
+#, fuzzy
 msgid "webapp"
-msgstr ""
+msgstr "webapp"
 
 #: ../telegram/modules/start.js:7:44
 msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
