@@ -14,14 +14,6 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 
 #: ../config.yaml
-msgid "Administrator"
-msgstr "Адміністратор"
-
-#: ../telegram/commands/settings.js:18:67
-msgid "Back"
-msgstr "Назад"
-
-#: ../config.yaml
 #, fuzzy
 msgid "Bot read-only permissions"
 msgstr "Дозволи бота лише на читання"
@@ -36,33 +28,40 @@ msgstr "відкрити локальний хост"
 msgid "Read-only"
 msgstr "Лише для читання"
 
-#: ../telegram/modules/start.js:12:28
-msgid "Settings"
-msgstr "Налаштування"
-
 #: ../bot/commands/start.js:26:40
 #, fuzzy
 msgid "some action"
 msgstr "якась дія"
 
+#: ../bot/commands/start.js:40:40
+msgid "webapp"
+msgstr ""
+
+#: ../config.yaml
+#~ msgid "Administrator"
+#~ msgstr "Адміністратор"
+
+#: ../telegram/commands/settings.js:18:67
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#: ../telegram/modules/start.js:12:28
+#~ msgid "Settings"
+#~ msgstr "Налаштування"
+
 #: ../telegram/modules/start.js:10:25
-msgid "Start"
-msgstr "Запустити"
+#~ msgid "Start"
+#~ msgstr "Запустити"
 
 #: ../telegram/modules/start.js:38:35
 #, fuzzy
-msgid "Test"
-msgstr "Тест"
+#~ msgid "Test"
+#~ msgstr "Тест"
 
 #: ../telegram/modules/start.js:10:44
-msgid "This is notifications bot. It doesn't support any additional commands."
-msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
-
-#: ../bot/commands/start.js:40:40
-#, fuzzy
-msgid "webapp"
-msgstr "webapp"
+#~ msgid "This is notifications bot. It doesn't support any additional commands."
+#~ msgstr "Це бот для сповіщень. Він не підтримує жодних додаткових команд."
 
 #: ../telegram/modules/start.js:7:44
-msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
-msgstr "Ви не маєте права використовувати цього бота. Вам потрібно прив’язати обліковий запис Telegram у налаштуваннях профілю користувача."
+#~ msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
+#~ msgstr "Ви не маєте права використовувати цього бота. Вам потрібно прив’язати обліковий запис Telegram у налаштуваннях профілю користувача."

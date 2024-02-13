@@ -14,14 +14,6 @@ msgstr ""
 "X-Generator: Poedit 3.4.1\n"
 
 #: ../config.yaml
-msgid "Administrator"
-msgstr "Администратор"
-
-#: ../telegram/commands/settings.js:18:67
-msgid "Back"
-msgstr "Назад"
-
-#: ../config.yaml
 #, fuzzy
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
@@ -36,32 +28,40 @@ msgstr "открыть локальный хост"
 msgid "Read-only"
 msgstr "Только чтение"
 
-#: ../telegram/modules/start.js:12:28
-msgid "Settings"
-msgstr "Настройки"
-
 #: ../bot/commands/start.js:26:40
 msgid "some action"
 msgstr "какое-то действие"
-
-#: ../telegram/modules/start.js:10:25
-msgid "Start"
-msgstr "Старт"
-
-#: ../telegram/modules/start.js:38:35
-#, fuzzy
-msgid "Test"
-msgstr "Тест"
-
-#: ../telegram/modules/start.js:10:44
-msgid "This is notifications bot. It doesn't support any additional commands."
-msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
 
 #: ../bot/commands/start.js:40:40
 #, fuzzy
 msgid "webapp"
 msgstr "веб-приложение"
 
+#: ../config.yaml
+#~ msgid "Administrator"
+#~ msgstr "Администратор"
+
+#: ../telegram/commands/settings.js:18:67
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#: ../telegram/modules/start.js:12:28
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#: ../telegram/modules/start.js:10:25
+#~ msgid "Start"
+#~ msgstr "Старт"
+
+#: ../telegram/modules/start.js:38:35
+#, fuzzy
+#~ msgid "Test"
+#~ msgstr "Тест"
+
+#: ../telegram/modules/start.js:10:44
+#~ msgid "This is notifications bot. It doesn't support any additional commands."
+#~ msgstr "Это бот уведомлений. Он не поддерживает никаких дополнительных команд."
+
 #: ../telegram/modules/start.js:7:44
-msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
-msgstr "У вас нет прав на использование этого бота. Вам необходимо связать свою учетную запись Telegram в настройках профиля пользователя."
+#~ msgid "You are not authorized to use this bot. You need to link your Telegram account in your user profile settings."
+#~ msgstr "У вас нет прав на использование этого бота. Вам необходимо связать свою учетную запись Telegram в настройках профиля пользователя."

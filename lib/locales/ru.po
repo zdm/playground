@@ -23,10 +23,6 @@ msgstr "тест ACL"
 msgid "ACL Test"
 msgstr "ACL-тест"
 
-#: ../components/telegram-test-bot/telegram/commands/settings.js:18:67
-msgid "Back"
-msgstr "Назад"
-
 #: ../components/telegram-test-bot/config.yaml
 #, fuzzy
 msgid "Bot read-only permissions"
@@ -43,17 +39,9 @@ msgstr "открыть локальный хост"
 msgid "Read-only"
 msgstr "Только чтение"
 
-#: ../components/telegram-test-bot/telegram/modules/start.js:12:28
-msgid "Settings"
-msgstr "Настройки"
-
 #: ../components/telegram-test-bot/bot/commands/start.js:26:40
 msgid "some action"
 msgstr "какое-то действие"
-
-#: ../components/telegram-test-bot/telegram/modules/start.js:10:25
-msgid "Start"
-msgstr "Старт"
 
 #: ../api/v1/test.js:64:46 ../app.yaml
 msgid "Test"
@@ -84,3 +72,15 @@ msgstr ""
 #, fuzzy
 msgid "webapp"
 msgstr "веб-приложение"
+
+#: ../components/telegram-test-bot/telegram/commands/settings.js:18:67
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:12:28
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#: ../components/telegram-test-bot/telegram/modules/start.js:10:25
+#~ msgid "Start"
+#~ msgstr "Старт"
