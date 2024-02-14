@@ -11,7 +11,7 @@ services:
       telegramSupportBot: true
       telegramTestBot: true
       storage: true
-      # nginx: true
+      nginx: true
 
 defaultService: api
 
