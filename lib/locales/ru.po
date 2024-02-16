@@ -68,11 +68,6 @@ msgstr ""
 "\n"
 "Дата: ${n}\n"
 
-#: ../components/telegram-test-bot/bot/commands/start.js:40:40
-#, fuzzy
-msgid "webapp"
-msgstr "веб-приложение"
-
 #: ../components/telegram-test-bot/telegram/commands/settings.js:18:67
 #~ msgid "Back"
 #~ msgstr "Назад"
@@ -84,3 +79,8 @@ msgstr "веб-приложение"
 #: ../components/telegram-test-bot/telegram/modules/start.js:10:25
 #~ msgid "Start"
 #~ msgstr "Старт"
+
+#: ../components/telegram-test-bot/bot/commands/start.js:40:40
+#, fuzzy
+#~ msgid "webapp"
+#~ msgstr "веб-приложение"

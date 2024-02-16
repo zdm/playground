@@ -33,10 +33,6 @@ msgstr "Лише для читання"
 msgid "some action"
 msgstr "якась дія"
 
-#: ../bot/commands/start.js:40:40
-msgid "webapp"
-msgstr ""
-
 #: ../config.yaml
 #~ msgid "Administrator"
 #~ msgstr "Адміністратор"

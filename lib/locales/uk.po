@@ -69,10 +69,6 @@ msgstr ""
 "\n"
 "Дата: ${n}\n"
 
-#: ../components/telegram-test-bot/bot/commands/start.js:40:40
-msgid "webapp"
-msgstr ""
-
 #: ../components/telegram-test-bot/telegram/commands/settings.js:18:67
 #~ msgid "Back"
 #~ msgstr "Назад"
