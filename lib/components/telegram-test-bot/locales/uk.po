@@ -18,7 +18,7 @@ msgstr ""
 msgid "Bot read-only permissions"
 msgstr "Дозволи бота лише на читання"
 
-#: ../bot/commands/start.js:30:40 ../bot/commands/start.js:34:40
+#: ../bot/commands/start.js:30:52 ../bot/commands/start.js:34:52
 #, fuzzy
 msgid "open localhost"
 msgstr "відкрити локальний хост"
@@ -28,7 +28,7 @@ msgstr "відкрити локальний хост"
 msgid "Read-only"
 msgstr "Лише для читання"
 
-#: ../bot/commands/start.js:26:40
+#: ../bot/commands/start.js:26:52
 #, fuzzy
 msgid "some action"
 msgstr "якась дія"

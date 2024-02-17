@@ -18,7 +18,7 @@ msgstr ""
 msgid "ACL test"
 msgstr "тест ACL"
 
-#: ../api/v1/test.js:81:46
+#: ../api/v1/test.js:81:59
 #, fuzzy
 msgid "ACL Test"
 msgstr "ACL-тест"
@@ -28,8 +28,8 @@ msgstr "ACL-тест"
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
-#: ../components/telegram-test-bot/bot/commands/start.js:30:40
-#: ../components/telegram-test-bot/bot/commands/start.js:34:40
+#: ../components/telegram-test-bot/bot/commands/start.js:30:52
+#: ../components/telegram-test-bot/bot/commands/start.js:34:52
 #, fuzzy
 msgid "open localhost"
 msgstr "открыть локальный хост"
@@ -39,11 +39,11 @@ msgstr "открыть локальный хост"
 msgid "Read-only"
 msgstr "Только чтение"
 
-#: ../components/telegram-test-bot/bot/commands/start.js:26:40
+#: ../components/telegram-test-bot/bot/commands/start.js:26:52
 msgid "some action"
 msgstr "какое-то действие"
 
-#: ../api/v1/test.js:64:46 ../app.yaml
+#: ../api/v1/test.js:64:59 ../app.yaml
 msgid "Test"
 msgstr "Тест"
 
@@ -57,7 +57,7 @@ msgstr "Тестовые уведомления"
 msgid "Test scope"
 msgstr "Объем испытаний"
 
-#: ../api/v1/test.js:66:20 ../api/v1/test.js:83:20
+#: ../api/v1/test.js:66:33 ../api/v1/test.js:83:33
 #, javascript-format
 msgid ""
 "The Request a Test Notification endpoint prompts the App Store server to send your server a notification with the TEST notificationType.\n"
