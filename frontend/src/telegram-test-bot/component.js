@@ -1,4 +1,3 @@
-import app from "#app";
 import TelegramBotComponent from "#vue/components/telegram/bot/component";
 
 class Component extends TelegramBotComponent {
@@ -9,7 +8,7 @@ class Component extends TelegramBotComponent {
     }
 
     get name () {
-        return app.locale.l10n( "Test bot" );
+        return l10n( "Test bot" );
     }
 
     get shortDescription () {
@@ -17,7 +16,7 @@ class Component extends TelegramBotComponent {
     }
 
     get description () {
-        return app.locale.l10n( `Test bot, for development.` );
+        return l10n( `Test bot, for development.` );
     }
 
     get panel () {
