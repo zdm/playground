@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-30 10:54+0300\n"
+"POT-Creation-Date: 2023-06-21 04:12+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,54 +10,54 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Search-Path: ../**:!../components/**\n"
+"X-Search-Path: /lib/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../app.yaml
+#: ../../lib/app.yaml
 #, fuzzy
 msgid "ACL test"
 msgstr "тест ACL"
 
-#: ../api/v1/test.js:81:46
+#: ../../lib/api/v1/test.js:81:46
 #, fuzzy
 msgid "ACL Test"
 msgstr "ACL-тест"
 
-#: ../components/telegram-test-bot/config.yaml
+#: ../../lib/components/telegram-test-bot/config.yaml
 #, fuzzy
 msgid "Bot read-only permissions"
 msgstr "Разрешения бота только на чтение"
 
-#: ../components/telegram-test-bot/bot/commands/start.js:30:40
-#: ../components/telegram-test-bot/bot/commands/start.js:34:40
+#: ../../lib/components/telegram-test-bot/bot/commands/start.js:30:40
+#: ../../lib/components/telegram-test-bot/bot/commands/start.js:34:40
 #, fuzzy
 msgid "open localhost"
 msgstr "открыть локальный хост"
 
-#: ../components/telegram-test-bot/config.yaml
+#: ../../lib/components/telegram-test-bot/config.yaml
 #, fuzzy
 msgid "Read-only"
 msgstr "Только чтение"
 
-#: ../components/telegram-test-bot/bot/commands/start.js:26:40
+#: ../../lib/components/telegram-test-bot/bot/commands/start.js:26:40
 msgid "some action"
 msgstr "какое-то действие"
 
-#: ../api/v1/test.js:64:46 ../app.yaml
+#: ../../lib/api/v1/test.js:64:46 ../../lib/app.yaml
 msgid "Test"
 msgstr "Тест"
 
-#: ../app.yaml
+#: ../../lib/app.yaml
 #, fuzzy
 msgid "Test notifications"
 msgstr "Тестовые уведомления"
 
-#: ../app.yaml
+#: ../../lib/app.yaml
 #, fuzzy
 msgid "Test scope"
 msgstr "Объем испытаний"
 
-#: ../api/v1/test.js:66:20 ../api/v1/test.js:83:20
+#: ../../lib/api/v1/test.js:66:20 ../../lib/api/v1/test.js:83:20
 #, javascript-format
 msgid ""
 "The Request a Test Notification endpoint prompts the App Store server to send your server a notification with the TEST notificationType.\n"
@@ -67,20 +67,3 @@ msgstr ""
 "Конечная точка Request a Test Notification предлагает серверу App Store отправить вашему серверу уведомление с типом уведомления TEST.\n"
 "\n"
 "Дата: ${n}\n"
-
-#: ../components/telegram-test-bot/telegram/commands/settings.js:18:67
-#~ msgid "Back"
-#~ msgstr "Назад"
-
-#: ../components/telegram-test-bot/telegram/modules/start.js:12:28
-#~ msgid "Settings"
-#~ msgstr "Настройки"
-
-#: ../components/telegram-test-bot/telegram/modules/start.js:10:25
-#~ msgid "Start"
-#~ msgstr "Старт"
-
-#: ../components/telegram-test-bot/bot/commands/start.js:40:40
-#, fuzzy
-#~ msgid "webapp"
-#~ msgstr "веб-приложение"
