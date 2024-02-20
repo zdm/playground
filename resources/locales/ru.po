@@ -35,7 +35,6 @@ msgid "open localhost"
 msgstr "открыть локальный хост"
 
 #: ../../lib/components/telegram-test-bot/config.yaml
-#, fuzzy
 msgid "Read-only"
 msgstr "Только чтение"
 
