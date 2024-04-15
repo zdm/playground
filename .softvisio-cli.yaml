@@ -7,3 +7,19 @@ docker:
   build:
     defaultTag: latest
     autoTags: [main, latest, next]
+
+docs:
+  logo: true
+
+  aliases:
+    /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
+
+  externalTypes:
+    - softvisio-node/core
+    - softvisio-node/result
+
+  app:
+    api:
+      url: wss://localhost/api
+    rpc:
+      url: ws://localhost/api
