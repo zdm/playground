@@ -9,6 +9,8 @@ docker:
     autoTags: [main, latest, next]
 
 docs:
+  location: docs
+
   logo: true
 
   aliases:
