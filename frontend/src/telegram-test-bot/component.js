@@ -23,9 +23,14 @@ class Component extends TelegramBotComponent {
         return import( /* webpackChunkName: "telegram-support-bot" */ "./panel" );
     }
 
-    // public
-    async runWebApp ( panel, data ) {
-        await panel.$mount( import( /* webpackChunkName: "telegram-support-bot" */ "./webapp.panel" ) );
+    // protected
+    async _runWebApp ( panel, data ) {
+        if ( data.webAppType === "orders" ) {
+            return panel.$mount( import( /* webpackChunkName: "telegram-support-bot" */ "./webapp.panel" ) );
+        }
+        else {
+            return super._runWebApp( panel, data );
+        }
     }
 }
 
