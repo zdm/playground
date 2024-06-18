@@ -13,19 +13,66 @@ msgstr ""
 "X-Search-Path: /src/**\n"
 "X-Generator: Poedit 3.3.1\n"
 
-#: ../../src/telegram-xlroman-company-statement-bot/component.js:11:15
-msgid "Company statement bot"
-msgstr "Бот выписки компании"
+#: ../../src/private.vue:62:79
+#, fuzzy
+msgid "Amcharts"
+msgstr "Амчартс"
 
-#: ../../src/telegram-xlroman-company-statement-bot/panel.vue:4:72
+#: ../../src/private.vue:67:79
+#, fuzzy
+msgid "API status"
+msgstr "Статус API"
+
+#: ../../src/private.vue:77:79
+#, fuzzy
+msgid "Ext charts"
+msgstr "Дополнительные диаграммы"
+
+#: ../../src/private.vue:72:79
+#, fuzzy
+msgid "Froala"
+msgstr "Фроала"
+
+#: ../../src/telegram-test-bot/panel.vue:4:72
 msgid "Info"
 msgstr "Инфо"
 
-#: ../../src/telegram-xlroman-company-statement-bot/component.js:19:15
-msgid "This bot helps to retrieve company statement from https://egrul.nalog.ru/."
-msgstr "Этот бот помогает получить выписку компании с https://egrul.nalog.ru/."
+#: ../../src/private.vue:19:79
+#, fuzzy
+msgid "Main"
+msgstr "Основной"
 
-#: ../../src/telegram-xlroman-company-statement-bot/panel.vue:9:68
+#: ../../src/private.vue:111:28
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../../src/private/amcharts.panel.vue:66:33
+#, fuzzy
+msgid "Subscribed users"
+msgstr "Подписавшиеся пользователи"
+
+#: ../../src/private.vue:14:79
+#, fuzzy
+msgid "Telegram"
+msgstr "Телеграмма"
+
+#: ../../src/telegram-test-bot/component.js:11:15
+#, fuzzy
+msgid "Test bot"
+msgstr "Тестовый бот"
+
+#: ../../src/telegram-test-bot/component.js:19:15
+#, fuzzy
+msgid "Test bot, for development."
+msgstr "Тестовый бот, для разработки."
+
+#: ../../src/private/amcharts.panel.vue:35:24
+#: ../../src/private/amcharts.panel.vue:60:24
+#, fuzzy
+msgid "Total subscribed users"
+msgstr "Всего подписанных пользователей"
+
+#: ../../src/telegram-test-bot/panel.vue:9:68
 msgid "Users"
 msgstr "Пользователи"
 
@@ -36,3 +83,11 @@ msgstr "Пользователи"
 #: ../../src/telegram-xlroman-company-statement-bot/panel.vue:9:68
 #~ msgid "Bot users"
 #~ msgstr "Пользователи бота"
+
+#: ../../src/telegram-xlroman-company-statement-bot/component.js:11:15
+#~ msgid "Company statement bot"
+#~ msgstr "Бот выписки компании"
+
+#: ../../src/telegram-xlroman-company-statement-bot/component.js:19:15
+#~ msgid "This bot helps to retrieve company statement from https://egrul.nalog.ru/."
+#~ msgstr "Этот бот помогает получить выписку компании с https://egrul.nalog.ru/."
