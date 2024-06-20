@@ -11,12 +11,12 @@
 
         <ext-tabpanel flex="1" layout='{"animation":{"direction":"vertical","type":"slide"}}' margin="1 0 0  0" tabBar='{"defaults":{"flex":null,"style":"font-size:.7em","textAlign":"center","width":120},"layout":{"align":"start","pack":"start","type":"vbox"}}' tabBarPosition="left" tabRotation="none" viewModel="true" @ready="_ready">
             <!-- telegram -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Telegram`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" title="Telegram">
                 <TelegramBotsPanel padding="0 0 0 1"/>
             </ext-panel>
 
             <!-- main panel -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Main`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" title="Main">
                 <ext-panel defaults='{"margin":10}' layout='{"align":"center","pack":"center","type":"vbox"}'>
                     <!-- toggle -->
                     <ext-container ref="toggle" layout="hbox" viewModel='{"data":{"value":true}}'>
@@ -59,7 +59,7 @@
             </ext-panel>
 
             <!-- amcharts -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Amcharts`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" title="Amcharts">
                 <AmchartsPanel/>
             </ext-panel>
 
@@ -69,12 +69,12 @@
             </ext-panel>
 
             <!-- froala -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Froala`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" title="Froala">
                 <FroalaPanel/>
             </ext-panel>
 
             <!-- ext-charts -->
-            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`Ext charts`)">
+            <ext-panel iconCls="fa-solid fa-people-group" layout="fit" :title="l10n(`ExtJS charts`)">
                 <ExtChartsPanel/>
             </ext-panel>
         </ext-tabpanel>
