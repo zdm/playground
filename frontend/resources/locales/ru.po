@@ -47,7 +47,6 @@ msgid "Settings"
 msgstr "Настройки"
 
 #: ../../src/private/amcharts.panel.vue:66:33
-#, fuzzy
 msgid "Subscribed users"
 msgstr "Подписавшиеся пользователи"
 
@@ -68,7 +67,6 @@ msgstr "Тестовый бот, для разработки."
 
 #: ../../src/private/amcharts.panel.vue:35:24
 #: ../../src/private/amcharts.panel.vue:60:24
-#, fuzzy
 msgid "Total subscribed users"
 msgstr "Всего подписанных пользователей"
 
