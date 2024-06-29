@@ -21,10 +21,6 @@ msgstr "Статус API"
 msgid "ExtJS charts"
 msgstr "Диаграммы ExtJS"
 
-#: ../../src/telegram-test-bot/panel.vue:4:72
-msgid "Info"
-msgstr "Инфо"
-
 #: ../../src/private.vue:111:28
 msgid "Settings"
 msgstr "Настройки"
@@ -33,22 +29,10 @@ msgstr "Настройки"
 msgid "Subscribed users"
 msgstr "Подписавшиеся пользователи"
 
-#: ../../src/telegram-test-bot/component.js:11:15
-msgid "Test bot"
-msgstr "Тестовый бот"
-
-#: ../../src/telegram-test-bot/component.js:19:15
-msgid "Test bot, for development."
-msgstr "Тестовый бот, для разработки."
-
 #: ../../src/private/amcharts.panel.vue:35:24
 #: ../../src/private/amcharts.panel.vue:60:24
 msgid "Total subscribed users"
 msgstr "Всего подписанных пользователей"
-
-#: ../../src/telegram-test-bot/panel.vue:9:68
-msgid "Users"
-msgstr "Пользователи"
 
 #: ../../src/private.vue:62:79
 #, fuzzy
@@ -77,6 +61,10 @@ msgstr "Пользователи"
 #~ msgid "Froala"
 #~ msgstr "Фроала"
 
+#: ../../src/telegram-test-bot/panel.vue:4:72
+#~ msgid "Info"
+#~ msgstr "Инфо"
+
 #: ../../src/private.vue:19:79
 #, fuzzy
 #~ msgid "Main"
@@ -87,6 +75,18 @@ msgstr "Пользователи"
 #~ msgid "Telegram"
 #~ msgstr "Телеграмма"
 
+#: ../../src/telegram-test-bot/component.js:11:15
+#~ msgid "Test bot"
+#~ msgstr "Тестовый бот"
+
+#: ../../src/telegram-test-bot/component.js:19:15
+#~ msgid "Test bot, for development."
+#~ msgstr "Тестовый бот, для разработки."
+
 #: ../../src/telegram-xlroman-company-statement-bot/component.js:19:15
 #~ msgid "This bot helps to retrieve company statement from https://egrul.nalog.ru/."
 #~ msgstr "Этот бот помогает получить выписку компании с https://egrul.nalog.ru/."
+
+#: ../../src/telegram-test-bot/panel.vue:9:68
+#~ msgid "Users"
+#~ msgstr "Пользователи"

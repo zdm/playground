@@ -9,7 +9,6 @@ services:
       rpc: true
       webpack: true
       telegramSupportBot: true
-      telegramTestBot: true
       storage: true
       nginx: true
 
