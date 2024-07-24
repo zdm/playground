@@ -3,8 +3,6 @@
 # NOTE deploy
 # docker stack deploy --with-registry-auth -c docker-stack.yaml playground
 
-version: "3.9"
-
 services:
   playground:
     image: ghcr.io/zdm/playground
