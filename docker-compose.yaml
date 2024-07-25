@@ -18,7 +18,7 @@ services:
     command: run
 
     secrets:
-      - { source: playground, target: /var/local/package/env.yaml }
+      - { source: playground_env.yaml, target: /var/local/package/env.yaml }
 
     networks: [network]
 
@@ -28,7 +28,7 @@ services:
     build: .
 
 secrets:
-  playground: { file: env.yaml }
+  playground_env.yaml: { file: env.yaml }
 
 networks:
   network:
