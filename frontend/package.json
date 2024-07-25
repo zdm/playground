@@ -20,11 +20,16 @@
     "imports": {
         "#core/*": "@softvisio/core/*",
         "#resources/*": "./resources/*",
-        "#src/*": [
-            "./src/*.vue",
-            "./src/*.js",
-            "./src/*.cjs"
-        ]
+        "#src/*": {
+            "browser": "./src/*",
+            "node": "./src/*.js"
+        }
+    },
+    "exports": {
+        "./*": {
+            "browser": "./src/*",
+            "node": "./src/*.js"
+        }
     },
     "scripts": {
         "build": "softvisio-webpack build --mode=production",
