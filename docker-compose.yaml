@@ -1,8 +1,3 @@
-#!/usr/bin/env -S docker stack deploy --with-registry-auth playground -c
-
-# NOTE deploy
-# docker stack deploy --with-registry-auth -c docker-stack.yaml playground
-
 services:
   playground:
     image: ghcr.io/zdm/playground
@@ -31,6 +26,4 @@ secrets:
   playground_env.yaml: { file: env.yaml }
 
 networks:
-  network:
-    name: ${DOCKER_STACK_NETWORK_NAME:-main}
-    external: true
+  network: ~
