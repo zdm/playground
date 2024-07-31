@@ -1,5 +1,6 @@
 dependencies:
   - "@softvisio/core"
+  - "@softvisio/app-component-similarity-search"
 
 services:
   api:
@@ -11,6 +12,7 @@ services:
       telegramSupportBot: true
       storage: true
       nginx: true
+      similaritySearch: true
 
 defaultService: api
 
