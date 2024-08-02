@@ -23,7 +23,7 @@
         "dev": "node bin/main.js run --mode=development"
     },
     "dependencies": {
-        "@softvisio/app-component-similarity-search": "file:../../softvisio-node/app-component-similarity-search",
+        "@softvisio/app-component-text-search": "file:../../softvisio-node/app-component-text-search",
         "@softvisio/core": "^7.0.0"
     }
 }
