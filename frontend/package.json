@@ -32,9 +32,9 @@
         }
     },
     "scripts": {
-        "build": "node --preserve-symlinks --preserve-symlinks-main node_modules/@softvisio/webpack/bin/softvisio-webpack.js build --mode=production",
-        "build-cordova": "node --preserve-symlinks --preserve-symlinks-main node_modules/@softvisio/webpack/bin/softvisio-webpack.js build --mode=production --cordova",
-        "dev": "node --preserve-symlinks --preserve-symlinks-main node_modules/@softvisio/webpack/bin/softvisio-webpack.js dev --mode=development"
+        "build": "nenv NODE_PRESERVE_SYMLINKS=1 NODE_PRESERVE_SYMLINKS_MAIN=1 -- softvisio-webpack build --mode=production",
+        "build-cordova": "nenv NODE_PRESERVE_SYMLINKS=1 NODE_PRESERVE_SYMLINKS_MAIN=1 -- softvisio-webpack build --mode=production --cordova",
+        "dev": "nenv NODE_PRESERVE_SYMLINKS=1 NODE_PRESERVE_SYMLINKS_MAIN=1 -- softvisio-webpack dev --mode=development"
     },
     "devDependencies": {
         "@softvisio/vue-ext": "^8.0.0"
