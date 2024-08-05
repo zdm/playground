@@ -23,7 +23,7 @@
         "dev": "node bin/main.js run --mode=development"
     },
     "dependencies": {
-        "@softvisio/app-component-text-search": "^1.0.0",
+        "@softvisio/app-component-text-search": "^1.0.0-alpha.0",
         "@softvisio/core": "^7.0.0"
     }
 }
