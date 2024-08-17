@@ -22,11 +22,13 @@ methods:
   upload:
     title: Test upload
     params:
-      - name: file
-        description: Uploaded file.
+      - name: data
         required: true
         schema:
-          file: { maxSize: 52_428_800, contentType: ["text/plain", "text/html"] } # 50Mb
-      - name: data
-        schema:
           type: object
+          properties:
+            file:
+              file: { maxSize: 52_428_800, contentType: ["text/plain", "text/html"] } # 50Mb
+            options: { type: object }
+          additionalProperties: false
+          required: [file]
