@@ -16,16 +16,15 @@ methods:
   upload:
     title: Test upload
     params:
-      - name: fields
+      - name: data
         required: true
         schema:
           type: object
           properties:
-            params: { type: object }
-            file1: { file: { maxSize: 50 MB } }
-            file2: { file: { maxSize: 50 MB, contentType: text/plain } }
+            options: { type: object }
+            file: { file: { maxSize: 50 MB } }
           additionalProperties: false
-          required: []
+          required: [file]
 
   download:
     title: Test download
