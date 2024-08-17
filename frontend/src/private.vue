@@ -155,8 +155,8 @@ export default {
 
             const upload = this.$api
                 .upload( "test/upload", {
-                    "params": { "a": 1, "b": 2 },
-                    "file1": file,
+                    "file": file,
+                    "options": { "a": 1, "b": 2 },
                 } )
                 .on( "progress", upload => console.log( "--- upload", upload.progressText ) );
 
