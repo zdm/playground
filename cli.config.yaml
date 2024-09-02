@@ -8,7 +8,7 @@ docker:
   autoTags: [main, latest, next]
 
 docs:
-  location: docs
+  location: /docs
 
   logo: true
 
