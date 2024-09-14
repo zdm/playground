@@ -15,7 +15,6 @@
     "author": "root <root@softvisio.net>",
     "type": "module",
     "imports": {
-        "#app/*": "@softvisio/app/*",
         "#core/*": "@softvisio/core/*",
         "#lib/*": "./lib/*.js",
         "#resources/*": "./resources/*"
