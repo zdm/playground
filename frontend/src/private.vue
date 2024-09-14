@@ -91,7 +91,7 @@ import ExtChartsPanel from "./private/ext-charts.panel";
 import NotificatiosSubscribeButton from "#vue/components/notifications/subscribe.button";
 import AmchartsPanel from "./private/amcharts.panel";
 import TelegramBotsPanel from "#vue/components/telegram/bots.panel";
-import constants from "#core/app/constants";
+import constants from "@softvisio/app/constants";
 
 export default {
     "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel, NotificatiosSubscribeButton, AmchartsPanel, TelegramBotsPanel },
