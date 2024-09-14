@@ -1,6 +1,6 @@
 dependencies:
   - "@softvisio/app"
-  - "@softvisio/app-component-text-search"
+  - "@softvisio/app-text-search"
 
 services:
   api:

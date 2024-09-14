@@ -25,6 +25,6 @@
     },
     "dependencies": {
         "@softvisio/app": "^1.0.0-alpha.0",
-        "@softvisio/app-component-text-search": "^2.0.0"
+        "@softvisio/app-text-search": "^2.0.0"
     }
 }
