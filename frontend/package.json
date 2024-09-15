@@ -32,9 +32,9 @@
         }
     },
     "scripts": {
-        "build": "nenv --preserve-symlinks -- softvisio-webpack build --mode=production",
-        "build-cordova": "nenv --preserve-symlinks -- softvisio-webpack build --mode=production --cordova",
-        "dev": "nenv --preserve-symlinks -- softvisio-webpack dev --mode=development"
+        "build": "softvisio-webpack build --mode=production",
+        "build-cordova": "softvisio-webpack build --mode=production --cordova",
+        "dev": "softvisio-webpack dev --mode=development"
     },
     "devDependencies": {
         "@softvisio/vue-ext": "^8.0.0"
