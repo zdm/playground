@@ -82,9 +82,6 @@
 </template>
 
 <script>
-import AmchartsPanel from "./private/amcharts.panel";
-import ExtChartsPanel from "./private/ext-charts.panel";
-import FroalaPanel from "./private/froala.panel";
 import constants from "#core/app/constants";
 import AclDialog from "#vue/components/acl/dialog";
 import UsersDialog from "#vue/components/administration/users/dialog";
@@ -92,6 +89,9 @@ import AppTitle from "#vue/components/application/title";
 import MethodsMonitoringPanel from "#vue/components/development/monitoring/methods/panel";
 import NotificatiosSubscribeButton from "#vue/components/notifications/subscribe.button";
 import TelegramBotsPanel from "#vue/components/telegram/bots.panel";
+import AmchartsPanel from "./private/amcharts.panel";
+import ExtChartsPanel from "./private/ext-charts.panel";
+import FroalaPanel from "./private/froala.panel";
 
 export default {
     "components": { AppTitle, MethodsMonitoringPanel, FroalaPanel, ExtChartsPanel, NotificatiosSubscribeButton, AmchartsPanel, TelegramBotsPanel },
