@@ -20,7 +20,7 @@
         "#resources/*": "./resources/*"
     },
     "scripts": {
-        "dev": "node bin/main.js run --mode=development"
+        "start": "node bin/main.js run --mode=development"
     },
     "dependencies": {
         "@softvisio/app-text-search": "^2.0.0",
