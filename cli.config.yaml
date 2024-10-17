@@ -1,7 +1,7 @@
 private: true
 
 subPackages:
-  - frontend
+  - /frontend
 
 docker:
   defaultTag: latest
