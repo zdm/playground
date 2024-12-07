@@ -37,6 +37,6 @@
         "start": "softvisio-webpack dev --mode=development"
     },
     "devDependencies": {
-        "@softvisio/vue-ext": "^8.0.0"
+        "@softvisio/vue-ext": "^8.14.4"
     }
 }
