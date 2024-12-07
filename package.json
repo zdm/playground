@@ -24,6 +24,6 @@
     },
     "dependencies": {
         "@softvisio/app-text-search": "^2.0.0",
-        "@softvisio/core": "^7.101.6"
+        "@softvisio/core": "^7.119.3"
     }
 }
