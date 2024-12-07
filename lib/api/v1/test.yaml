@@ -2,41 +2,41 @@ title: Telebot API
 emits: []
 
 methods:
-  bench:
-    title: Bench
-    maxParallelCallsPerClient: 100000
+    bench:
+        title: Bench
+        maxParallelCallsPerClient: 100000
 
-  test:
-    title: Test
-    params:
-      - name: delay
-        schema:
-          type: ["null", "integer"]
+    test:
+        title: Test
+        params:
+            - name: delay
+              schema:
+                  type: ["null", "integer"]
 
-  upload:
-    title: Test upload
-    params:
-      - name: data
-        required: true
-        schema:
-          type: object
-          properties:
-            options: { type: object }
-            file: { file: { maxSize: 50 MB } }
-          additionalProperties: false
-          required: [file]
+    upload:
+        title: Test upload
+        params:
+            - name: data
+              required: true
+              schema:
+                  type: object
+                  properties:
+                      options: { type: object }
+                      file: { file: { maxSize: 50 MB } }
+                  additionalProperties: false
+                  required: [file]
 
-  download:
-    title: Test download
+    download:
+        title: Test download
 
-  send-notification:
-    title: Send test notification
-    permission: users
+    send-notification:
+        title: Send test notification
+        permission: users
 
-  send-acl-notification:
-    title: Send ACL test notification
-    permission: users
+    send-acl-notification:
+        title: Send ACL test notification
+        permission: users
 
-  send-push-notification:
-    title: Send test push notification
-    permission: users
+    send-push-notification:
+        title: Send test push notification
+        permission: users

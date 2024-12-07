@@ -1,34 +1,34 @@
 title: Test
 
 methods:
-  bench:
-    title: Bench
+    bench:
+        title: Bench
 
-  test:
-    title: Test
-    description: |-
-      Playwright methods might throw errors if they are unable to fulfill a request. For example, page.waitForSelector(selector[, options]) might fail if the selector doesn't match any nodes during the given timeframe.
-
-      For certain types of errors Playwright uses specific error classes. These classes are available via playwright.errors.
-    params:
-      - name: args
+    test:
+        title: Test
         description: |-
-          Parameter description. Playwright enables fast, reliable and capable automation across all modern browsers. This guide covers those key differentiators to help you decide on the right tool for your automated tests.
-        schema: { type: string }
-      - name: test
-        description: Test parameter.
-        schema: { type: object }
+            Playwright methods might throw errors if they are unable to fulfill a request. For example, page.waitForSelector(selector[, options]) might fail if the selector doesn't match any nodes during the given timeframe.
 
-  upload:
-    title: Test upload
-    params:
-      - name: data
-        required: true
-        schema:
-          type: object
-          properties:
-            file:
-              file: { maxSize: 52_428_800, contentType: ["text/plain", "text/html"] } # 50Mb
-            options: { type: object }
-          additionalProperties: false
-          required: [file]
+            For certain types of errors Playwright uses specific error classes. These classes are available via playwright.errors.
+        params:
+            - name: args
+              description: |-
+                  Parameter description. Playwright enables fast, reliable and capable automation across all modern browsers. This guide covers those key differentiators to help you decide on the right tool for your automated tests.
+              schema: { type: string }
+            - name: test
+              description: Test parameter.
+              schema: { type: object }
+
+    upload:
+        title: Test upload
+        params:
+            - name: data
+              required: true
+              schema:
+                  type: object
+                  properties:
+                      file:
+                          file: { maxSize: 52_428_800, contentType: ["text/plain", "text/html"] } # 50Mb
+                      options: { type: object }
+                  additionalProperties: false
+                  required: [file]

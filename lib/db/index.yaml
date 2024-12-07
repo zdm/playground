@@ -5,7 +5,7 @@ patch: ~
 emits: ["main/test"]
 
 cron:
-  # test:
-  #   cron: "* * * * * *" # 00:00 Sunday
-  #   timezone: ~
-  #   query: "DO $$ BEGIN PERFORM pg_sleep(5); PERFORM pg_notify( 'test', json_build_object( 'date', current_timestamp::text )::text ); END; $$;"
+    # test:
+    #   cron: "* * * * * *" # 00:00 Sunday
+    #   timezone: ~
+    #   query: "DO $$ BEGIN PERFORM pg_sleep(5); PERFORM pg_notify( 'test', json_build_object( 'date', current_timestamp::text )::text ); END; $$;"
