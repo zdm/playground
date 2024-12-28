@@ -5,14 +5,15 @@ dependencies:
 services:
     api:
         components:
-            threads: true
+            acme: true
             api: true
-            rpc: true
-            webpack: true
-            telegramSupportBot: true
-            storage: true
             nginx: true
+            rpc: true
+            storage: true
+            telegramSupportBot: true
             textSearch: true
+            threads: true
+            webpack: true
 
 defaultService: api
 
