@@ -18,9 +18,6 @@ services:
 defaultService: api
 
 components:
-    locales:
-        locales: [en-GB, en-US, uk-UA, ru-RU]
-
     acl:
         types:
             main:
@@ -38,6 +35,9 @@ components:
                         roles: ~
                         channels:
                             telegram: { editable: false, subscribed: true }
+
+    locales:
+        locales: [en-GB, en-US, uk-UA, ru-RU]
 
     notifications:
         types:
