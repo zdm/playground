@@ -28,7 +28,7 @@ methods:
                   type: object
                   properties:
                       file:
-                          file: { maxSize: 52_428_800, contentType: ["text/plain", "text/html"] } # 50Mb
+                          file: { maxSize: 50 MB, contentType: ["text/plain", "text/html"] }
                       options: { type: object }
                   additionalProperties: false
                   required: [file]
