@@ -1,51 +1,51 @@
 dependencies:
-    - "@softvisio/core"
-    - "@softvisio/app-text-search"
+  - "@softvisio/core"
+  - "@softvisio/app-text-search"
 
 services:
-    api:
-        components:
-            acme: true
-            api: true
-            nginx: true
-            rpc: true
-            storage: true
-            telegramSupportBot: true
-            textSearch: true
-            threads: true
-            webpack: true
+  api:
+    components:
+      acme: true
+      api: true
+      nginx: true
+      rpc: true
+      storage: true
+      telegramSupportBot: true
+      textSearch: true
+      threads: true
+      webpack: true
 
 defaultService: api
 
 components:
-    acl:
-        types:
-            main:
-                roles:
-                    test:
-                        name: !l10nt Test
-                        description: !l10nt Test scope
-                        permissions:
-                            - acl:*
+  acl:
+    types:
+      main:
+        roles:
+          test:
+            name: !l10nt Test
+            description: !l10nt Test scope
+            permissions:
+              - acl:*
 
-                notifications:
-                    test:
-                        name: !l10nt ACL test
-                        description: !l10nt Test notifications
-                        roles: ~
-                        channels:
-                            telegram: { editable: false, subscribed: true }
+        notifications:
+          test:
+            name: !l10nt ACL test
+            description: !l10nt Test notifications
+            roles: ~
+            channels:
+              telegram: { editable: false, subscribed: true }
 
-    locales:
-        locales: [en-GB, en-US, uk-UA, ru-RU]
+  locales:
+    locales: [en-GB, en-US, uk-UA, ru-RU]
 
-    notifications:
-        types:
-            test:
-                name: !l10nt Test
-                description: !l10nt Test notifications
-                channels:
-                    internal: { editable: true }
-                    push: { editable: true }
+  notifications:
+    types:
+      test:
+        name: !l10nt Test
+        description: !l10nt Test notifications
+        channels:
+          internal: { editable: true }
+          push: { editable: true }
 
 config: ~

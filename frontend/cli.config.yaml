@@ -1,4 +1,4 @@
 releasable: false
 
 subPackages:
-    - /cordova
+  - /cordova

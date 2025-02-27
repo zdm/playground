@@ -1,26 +1,26 @@
 releasable: false
 
 subPackages:
-    - /frontend
+  - /frontend
 
 docker:
-    defaultTag: latest
-    autoTags: [main, latest, next]
+  defaultTag: latest
+  autoTags: [main, latest, next]
 
 docs:
-    location: /docs
+  location: /docs
 
-    logo: true
+  logo: true
 
-    aliases:
-        /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
+  aliases:
+    /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
 
-    externalTypes:
-        - softvisio-node/core
-        - softvisio-node/result
+  externalTypes:
+    - softvisio-node/core
+    - softvisio-node/result
 
-    app:
-        api:
-            url: wss://localhost/api
-        rpc:
-            url: ws://localhost/api
+  app:
+    api:
+      url: wss://localhost/api
+    rpc:
+      url: ws://localhost/api

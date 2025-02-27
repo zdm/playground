@@ -1,21 +1,21 @@
 version: 2
 updates:
-    - package-ecosystem: docker
-      directories:
-          - /
-      schedule:
-          interval: daily
-          day: monday
-          time: 00:00
-          timezone: UTC
-      open-pull-requests-limit: 5
-    - package-ecosystem: npm
-      directories:
-          - /
-          - /frontend
-      schedule:
-          interval: weekly
-          day: monday
-          time: 00:00
-          timezone: UTC
-      open-pull-requests-limit: 5
+  - package-ecosystem: docker
+    directories:
+      - /
+    schedule:
+      interval: daily
+      day: monday
+      time: 00:00
+      timezone: UTC
+    open-pull-requests-limit: 5
+  - package-ecosystem: npm
+    directories:
+      - /
+      - /frontend
+    schedule:
+      interval: weekly
+      day: monday
+      time: 00:00
+      timezone: UTC
+    open-pull-requests-limit: 5
