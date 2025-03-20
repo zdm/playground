@@ -2,6 +2,7 @@
     "name": "@zdm/playground",
     "version": "1.0.2",
     "private": true,
+    "description": "JS application playground",
     "homepage": "https://zdm.github.io/playground/",
     "bugs": {
         "url": "https://github.com/zdm/playground/issues",
