@@ -11,7 +11,7 @@ Playwright enables fast, reliable and capable automation across all modern brows
 
 ## Install
 
-```shell
+```sh
 git clone https://github.com/zdm/playground.git
 
 cd playground
