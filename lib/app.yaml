@@ -5,7 +5,7 @@ dependencies:
 services:
   api:
     components:
-      acme: true
+      acme: false
       api: true
       nginx: false
       rpc: true
