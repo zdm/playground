@@ -7,7 +7,7 @@ services:
     components:
       acme: false
       api: true
-      nginx: false
+      nginx: true
       rpc: true
       storage: true
       telegramSupportBot: true
