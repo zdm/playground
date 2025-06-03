@@ -7,7 +7,7 @@ services:
     components:
       acme: true
       api: true
-      nginx: true
+      nginx: false
       rpc: true
       storage: true
       telegramSupportBot: true
@@ -35,6 +35,9 @@ components:
             roles: ~
             channels:
               telegram: { editable: false, subscribed: true }
+
+  env:
+    name: playground
 
   locales:
     locales: [en-GB, en-US, uk-UA, ru-RU]
