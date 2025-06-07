@@ -1,4 +1,5 @@
-releasable: false
+release:
+  enabled: false
 
 subPackages:
   - /cordova
