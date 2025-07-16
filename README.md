@@ -1,6 +1,6 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
-> :information_source: Please, see the full project documentation here:<br><https://zdm.github.io/playground/>
+> ℹ️ Please, see the full project documentation here:<br><https://zdm.github.io/playground/>
 
 # Introduction
 
