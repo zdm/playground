@@ -108,7 +108,7 @@ export default {
                 {
                     "xtype": "button",
                     "iconCls": "fa-solid fa-cog",
-                    "text": l10n( `Settings` ),
+                    "text": l10n( "Settings" ),
                     "iconAlign": "top",
                     "ui": "action",
                     "padding": "0 0 0 0",
