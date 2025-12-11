@@ -14,11 +14,11 @@ docs:
   logo: true
 
   aliases:
-    /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
+    /api: https://raw.githubusercontent.com/C0rejs/core/main/docs/api.md
 
   externalTypes:
-    - softvisio-node/core
-    - softvisio-node/result
+    - C0rejs/core
+    - C0rejs/result
 
   app:
     api:
