@@ -1,3 +1,3 @@
-import Webpack from "@softvisio/webpack";
+import Webpack from "@c0rejs/webpack";
 
 export default Webpack.buildConfig( import.meta.url );

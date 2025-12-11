@@ -16,7 +16,7 @@
     "author": "root <root@softvisio.net>",
     "type": "module",
     "imports": {
-        "#core/*": "@softvisio/core/*",
+        "#core/*": "@c0rejs/core/*",
         "#lib/*": "./lib/*.js",
         "#resources/*": "./resources/*"
     },
@@ -24,7 +24,7 @@
         "start": "node bin/main.js run --mode=development"
     },
     "dependencies": {
-        "@softvisio/app-text-search": "^2.0.0",
-        "@softvisio/core": "^7.101.6"
+        "@c0rejs/app-text-search": "^2.0.0",
+        "@c0rejs/core": "^7.101.6"
     }
 }
