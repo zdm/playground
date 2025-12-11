@@ -14,11 +14,11 @@ docs:
   logo: true
 
   aliases:
-    /api: https://raw.githubusercontent.com/C0rejs/core/main/docs/api.md
+    /api: https://raw.githubusercontent.com/c0rejs/core/main/docs/api.md
 
   externalTypes:
-    - C0rejs/core
-    - C0rejs/result
+    - c0rejs/core
+    - c0rejs/result
 
   app:
     api:
