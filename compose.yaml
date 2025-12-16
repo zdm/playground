@@ -23,7 +23,7 @@ services:
     build:
       context: .
       secrets:
-        - id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB
+        - id=GITHUB_TOKEN,env=GITHUB_TOKEN
 
 secrets:
   playground_env.yaml: { file: env.yaml }
