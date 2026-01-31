@@ -1,4 +1,4 @@
-import WebpackComponent from "@c0rejs/vue-ext/webpack-components/main";
+import WebpackComponent from "@corejslib/vue-ext/webpack-components/main";
 
 export default class extends WebpackComponent {
 

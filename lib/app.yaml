@@ -1,6 +1,6 @@
 dependencies:
-  - "@c0rejs/core"
-  - "@c0rejs/app-text-search"
+  - "@corejslib/core"
+  - "@corejslib/app-text-search"
 
 services:
   api:

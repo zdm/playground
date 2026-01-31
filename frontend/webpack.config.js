@@ -1,3 +1,3 @@
-import Webpack from "@c0rejs/webpack";
+import Webpack from "@corejslib/webpack";
 
 export default Webpack.buildConfig( import.meta.url );

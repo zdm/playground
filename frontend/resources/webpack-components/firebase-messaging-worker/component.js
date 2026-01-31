@@ -1,4 +1,4 @@
-import WebpackComponent from "@c0rejs/vue-ext/webpack-components/firebase-messaging-worker";
+import WebpackComponent from "@corejslib/vue-ext/webpack-components/firebase-messaging-worker";
 
 export default class extends WebpackComponent {
 
