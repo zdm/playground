@@ -55,9 +55,8 @@ msgstr ""
 
 #: ../../lib/components/telegram-test-bot/bot/commands/start.js:30:40
 #: ../../lib/components/telegram-test-bot/bot/commands/start.js:34:40
-#, fuzzy
 #~ msgid "open localhost"
-#~ msgstr "открыть локальный хост"
+#~ msgstr "открыть localhost"
 
 #: ../../lib/components/telegram-test-bot/config.yaml
 #~ msgid "Read-only"
