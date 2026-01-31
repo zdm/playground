@@ -1,16 +1,16 @@
 {
-    "name": "@zdm/playground",
+    "name": "@softvisio/playground",
     "version": "1.0.2",
     "private": true,
     "description": "JS application playground",
-    "homepage": "https://zdm.github.io/playground/",
+    "homepage": "https://softvisio.github.io/playground/",
     "bugs": {
-        "url": "https://github.com/zdm/playground/issues",
+        "url": "https://github.com/softvisio/playground/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zdm/playground.git"
+        "url": "git+https://github.com/softvisio/playground.git"
     },
     "license": "Proprietary Software",
     "author": "root <root@softvisio.net>",

@@ -1,17 +1,17 @@
 {
-    "name": "@zdm/playground-frontend",
+    "name": "@softvisio/playground-frontend",
     "version": "1.0.2",
     "private": true,
     "description": "",
     "keywords": [],
-    "homepage": "https://zdm.github.io/playground/",
+    "homepage": "https://softvisio.github.io/playground/",
     "bugs": {
-        "url": "https://github.com/zdm/playground/issues",
+        "url": "https://github.com/softvisio/playground/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zdm/playground.git",
+        "url": "git+https://github.com/softvisio/playground.git",
         "directory": "frontend"
     },
     "license": "Proprietary Software",

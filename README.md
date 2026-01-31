@@ -1,6 +1,6 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
-> ℹ️ Please, see the full project documentation here:<br><https://zdm.github.io/playground/>
+> ℹ️ Please, see the full project documentation here:<br><https://softvisio.github.io/playground/>
 
 # Introduction
 
@@ -16,7 +16,7 @@ Playwright enables fast, reliable and capable automation across all modern brows
 ## Install
 
 ```sh
-git clone https://github.com/zdm/playground.git
+git clone https://github.com/softvisio/playground.git
 
 cd playground
 
